@@ -1,0 +1,363 @@
+body{
+	background-repeat: no-repeat;
+}
+
+
+div.kosice-team{
+	background: #0052B2;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+table.kosice-team th{
+	background-color: rgb(255,255,255, 0.4);
+	text-align: center;
+}
+table.kosice-team{
+	display: inline-block; 
+	margin-left: 50px;
+
+}	
+table.kosice-team td{
+	width: 150px;
+	text-align: center;
+}
+
+
+
+
+div.slovan-team{
+	background: #00B0F0;
+	width: 100%;
+	margin-top: 10px;
+	height: auto;
+}
+table.slovan-team th{
+	background-color: rgb(255,255,255, 0.4);
+	text-align: center;
+}
+table.slovan-team{
+	display: inline-block; 
+	margin-left: 50px;
+
+}	
+table.slovan-team td{
+	width: 150px;
+	text-align: center;
+}
+
+
+
+div.trencin-team{
+	background: #AE2726;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+table.trencin-team th{
+	background-color: rgb(255,255,255, 0.4);
+	text-align: center;
+}
+table.trencin-team{
+	display: inline-block; 
+	margin-left: 50px;
+
+}	
+table.trencin-team td{
+	width: 150px;
+	text-align: center;
+}
+
+
+
+div.poprad-team{
+	background-color: #01245E;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+table.poprad-team th{
+	background-color: rgb(255,255,255, 0.4);
+	text-align: center;
+}
+table.poprad-team{
+	display: inline-block; 
+	margin-left: 50px;
+
+}	
+table.poprad-team td{
+	width: 150px;
+	text-align: center;
+}
+
+
+
+
+div.bb-team{
+	background-color: #A90000;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+table.bb-team th{
+	background-color: rgb(255,255,255, 0.4);
+	text-align: center;
+}
+table.bb-team{
+	display: inline-block; 
+	margin-left: 50px;
+
+}	
+table.bb-team td{
+	width: 150px;
+	text-align: center;
+}
+
+
+
+div.zvolen-team{
+	background-color: #f9b022;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+table.zvolen-team th{
+	background-color: rgb(255,255,255, 0.4);
+	text-align: center;
+}
+table.zvolen-team{
+	display: inline-block; 
+	margin-left: 50px;
+
+}	
+table.zvolen-team td{
+	width: 150px;
+	text-align: center;
+}
+
+
+
+div.nitra-team{
+	background-color: #00aeef;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+table.nitra-team th{
+	background-color: rgb(255,255,255, 0.4);
+	text-align: center;
+}
+table.nitra-team{
+	display: inline-block; 
+	margin-left: 50px;
+
+}	
+table.nitra-team td{
+	width: 150px;
+	text-align: center;
+}
+
+
+
+
+
+div.michalovce-team{
+	background-color: #F58220;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+table.michalovce-team th{
+	background-color: rgb(255,255,255, 0.4);
+	text-align: center;
+}
+table.michalovce-team{
+	display: inline-block; 
+	margin-left: 50px;
+
+}	
+table.michalovce-team td{
+	width: 150px;
+	text-align: center;
+}
+
+
+
+
+div.detva-team{
+	background-color: #AFA715;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+table.detva-team th{
+	background-color: rgb(255,255,255, 0.4);
+	text-align: center;
+}
+table.detva-team{
+	display: inline-block; 
+	margin-left: 50px;
+
+}	
+table.detva-team td{
+	width: 150px;
+	text-align: center;
+}
+
+
+
+div.mikulas-team{
+	background-color: #BA001C;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+table.mikulas-team th{
+	background-color: rgb(255,255,255, 0.4);
+	text-align: center;
+}
+table.mikulas-team{
+	display: inline-block; 
+	margin-left: 50px;
+
+}	
+table.mikulas-team td{
+	width: 150px;
+	text-align: center;
+}
+
+
+
+div.skalica-team{
+	background-color: #00985B;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+table.skalica-team th{
+	background-color: rgb(255,255,255, 0.4);
+	text-align: center;
+}
+table.skalica-team{
+	display: inline-block; 
+	margin-left: 50px;
+
+}	
+table.skalica-team td{
+	width: 150px;
+	text-align: center;
+}
+
+
+
+
+div.snv-team{
+	background-color: #0F2648;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+table.snv-team th{
+	background-color: rgb(255,255,255, 0.4);
+	text-align: center;
+}
+table.snv-team{
+	display: inline-block; 
+	margin-left: 50px;
+
+}	
+table.snv-team td{
+	width: 150px;
+	text-align: center;
+}
+
+
+
+
+
+div.zilina-team{
+	background-color: #00a652;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+table.zilina-team th{
+	background-color: rgb(255,255,255, 0.4);
+	text-align: center;
+}
+table.zilina-team{
+	display: inline-block; 
+	margin-left: 50px;
+
+}	
+table.zilina-team td{
+	width: 150px;
+	text-align: center;
+}
+
+
+
+div.bardejov-team{
+	background-color: #c52431;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+table.bardejov-team th{
+	background-color: rgb(255,255,255, 0.4);
+	text-align: center;
+}
+table.bardejov-team{
+	display: inline-block; 
+	margin-left: 50px;
+
+}	
+table.bardejov-team td{
+	width: 150px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 760px){ 
+.navbar{
+		width: 100%;
+		margin: 0 auto;
+	}
+	ul{
+    flex-direction: column;
+
+  }
+  
+  /* deletes margin on top or bottom of the a tag*/
+  li{
+  	width: 100%;
+    margin: 0;
+
+  }
+ /* makes sure that the a tag will take the entire screen*/
+  a{
+    display: block;
+  }
+
+.centered{
+	display: none;
+}
+
+#slider{
+	display: none;
+}
+
+
+.team-logo{
+	display: block;
+	margin: 0 auto;	
+}
+.nazov-klubu{
+	display: block;
+}
+}

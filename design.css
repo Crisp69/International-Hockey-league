@@ -1,0 +1,544 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	background-color: rgb(34,34,34, 0.8);
+	width: 100%;
+	height: auto;
+}
+
+body{
+	background-repeat: no-repeat;
+}
+ul{
+	display: flex;
+	margin: 0 auto;
+	/* Use flex boxes to align li items */
+    display: flex;
+    justify-content: space-around;
+    /* Remove default padding from major browsers */
+    padding: 0;
+    /* Hide the default decorations for li items */
+    list-style: none;
+    background-color: #0971ba;
+    box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+}
+li{
+	width: 100px; 
+ 	text-align:center;
+  	list-style-type: none;  
+   	background-color: #0971ba;
+	font-size: 20px;
+    margin: 0 10px;
+    width: 300px;
+    box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.6);
+
+}
+
+li:hover{
+	background-color: #3faae0;
+	transition: 0.3s;
+	opacity: 0.7;
+}
+
+ul > li {
+    /* Display the elements in one line */
+    display: inline-block;
+}
+a.navbar-link{
+	text-decoration: none;
+	color: white;
+}
+
+
+#main-logo-div{
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+ p{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+#small-logo-span{
+	text-align: center;
+	box-shadow: 0px 0px 22px 3px rgba(218, 229, 235, 0.6);
+	width: auto;
+}
+
+#slider{
+	
+	width: 100%;
+	height: 850px;
+	background: url("img/clubs/kosice.jpg");
+	animation: slide 30s infinite;
+}
+
+
+
+@keyframes slide{
+	25%{
+		background: url("img/clubs/trencin.jpg");
+	}
+	50%{
+		background: url("img/clubs/pp-bb.jpg");
+	}
+	75%{
+		background: url("img/clubs/maskot-slovan2.jpg");
+	}
+	100%{
+		background: url("img/clubs/kosice.jpg");
+	}
+}
+
+
+.background-all-stars{
+	width: 100%; 
+	height: auto; 
+	background: url("img/logo-pozadie.jpg");
+
+}
+
+#all-stars{
+	width: 70%; 
+	margin: 0 auto; 
+	height: 600px; 
+	background: url(img/hockey-zone-new.png);
+	margin-top: 20px;
+}
+
+p.nazov-tim-tyzdna{
+	color: gold; 
+	font-size: 35px; 
+	padding-top: 15px; 
+	font-family: 'Anton', sans-serif;
+}
+
+p.nazov-tim-tyzdna-2{
+	color: gold; 
+	font-size: 35px; 
+	padding-top: 20px;
+	padding-left: 190px;
+	padding-top: 15px;
+	font-family: 'Anton', sans-serif;
+
+}
+
+div.paragraph-all-stars{
+	 display: flex;
+	 width: 100%;
+	 margin-left: 265px;
+	 padding-top: 20px;
+}
+
+.nazov-hraca{
+	color: black;
+	font-family: 'Anton', sans-serif;
+	background-color: rgb(212,175,55, 0.8);
+}
+
+
+#standings{
+	width: 100%;
+	height: 850px;
+	background-color: rgb(9, 113, 186, 0.8);
+	text-align: center;
+}
+
+#standings-p{
+	color: white;
+	font-size: 40px;
+	padding-top: 20px;
+}
+
+.table{
+	background-color: white;
+
+}
+
+#header-begin{
+	background-color: #0971ba; 
+	width: 100%; 
+	height: 25px;
+}
+
+.centered {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: gray;
+  font-size: 75px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+#news{
+	background-color: rgb(34,34,34, 0.8);
+	width:  100%;
+	height: 300px;
+	justify-content: center;
+}
+
+
+.article{
+	width: 350px;
+	height: 300px;
+	background-color: white;
+	padding-top: 50px;
+}
+
+#table-wrapper {
+  position:relative;
+}
+
+.form{
+	 border-bottom: none;
+	 padding: 2px;
+}
+
+th.header{
+	border-bottom: 2px solid #c7c6c6;
+	font-size: 17px;
+	padding: 10px;
+	background-color: #c7c6c6;
+}
+
+td.stats{
+	border-bottom: 2px solid #c7c6c6;
+	font-size: 17px;
+	padding: 10px;
+	width: 70px;
+}
+
+td.logo{
+	border-bottom: 2px solid #c7c6c6;
+	padding-left: 7px;
+}
+
+td.club-name{
+	border-bottom: 2px solid #c7c6c6;
+	padding: 5px;
+	font-size: 17px;
+	width: 250px;
+}
+
+td.postupuje{
+	border-bottom: 2px solid #c7c6c6;
+	background-color: #004682;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+td.nepostupuje{
+	border-bottom: 2px solid #c7c6c6;
+	background-color: #bd0000;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+
+#results{
+	background-color: white;
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
+	display: flex;
+
+}
+
+.vysledky{
+	margin: 0 20px;
+}
+
+.c-name{
+	padding: 5px;
+	text-align: left;
+	width: 150px;
+}
+
+#rozpis-zapasov{
+	background-color: #b0b0b0;;
+	text-align: left;
+	align-content: center;
+	display: flex;
+	height: auto;
+  	
+}
+.tabulka-zapasov{
+	 
+}
+
+.tabulka-zapasov th{
+	background-color: #b0b0b0;
+
+}
+
+.tabulka-zapasov td{
+	background-color: white;
+	width: 350px;
+	padding-bottom: 0px;
+	padding: 0 auto;
+
+}	
+
+.tabulka-zapasov td:nth-child(2){
+	width: 45px;
+}
+
+#HAlink{
+	background-color: rgb(255, 255, 255, 0.8);
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
+	display: flex;
+
+
+}
+
+
+
+.logo-manazer{
+	padding-top: 20px;
+	opacity: 0.8
+
+}
+
+#container-manazeri{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	overflow-y: scroll;
+	height: 650px;
+}
+
+#kosice{
+	background-color: rgb(0, 82, 178, 0.7);
+	width: 100%;
+	height: 300px; 
+}
+
+#manazer{
+	width: 40%;
+	height: 300px;
+	margin: 0 auto;
+	border-radius: 15px;
+	
+
+}
+#manazer h3{
+	 color: white;
+	 font-weight: bold;
+	 font-family: 'Asap', sans-serif;
+}
+#manazer a{
+	 color: white;
+	 font-weight: bold;
+	 font-family: 'Asap', sans-serif;
+}
+
+table.manazer-uspechy th, td{
+	background-color: white;
+	padding: 5px;
+	text-align: left;
+	
+}
+table.manazer-uspechy td{
+	padding: 5px;
+}
+
+.kosice-manazer{
+	background: #0052B2;
+}
+.slovan-manazer{
+	background: #00B0F0;
+}
+.trencin-manazer{
+	background: #AE2726;
+}
+.poprad-manazer{
+	background-color: #01245E;
+}
+.bb-manazer{
+	background-color: #A90000;
+}
+.zvolen-manazer{
+	background-color: #FFDF0F;
+}
+.nitra-manazer{
+	background-color: #00aeef;
+}
+.michalovce-manazer{
+	background-color: #F58220;
+}
+.detva-manazer{
+	background-color: #AFA715;
+}
+.mikulas-manazer{
+	background-color: #BA001C;
+}
+.skalica-manazer{
+	background-color: #00985B;
+}
+.zilina-manazer{
+	background-color: #00a652;
+}
+.snv-manazer{
+	background-color: #0F2648;
+}
+.bardejov-manazer{
+	background-color: #c52431;
+}
+
+
+
+table.patka-tyzdna{
+	background: url("img/hockey-zone.png");
+
+}
+
+table.patka-tyzdna td{
+	font-family: 'Staatliches', cursive;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	background-color: none;
+}
+table.patka-tyzdna th{
+	text-align: center;
+}
+
+.obrana{
+	width: 150px;
+}
+.utok{
+	width: 200px;
+}
+
+div.rules, p{
+	text-align: center;
+	color: black;
+	
+	font-weight: bold;
+	font-size: 20px;
+}
+div.rules{
+	overflow-y: scroll; 
+	height: 700px; 
+	background-color: rgb(37, 121, 182, 0.7);
+}
+div.rules-article{
+	width: 50%;
+	margin: 0 auto;
+	
+	opacity: 0.8;
+}
+p.pre-manazerov{
+	text-shadow: 2px 2px black;
+}
+
+img.rule-model{
+	padding-top: 80px;
+}
+
+
+
+
+@media only screen and (max-width: 760px){ 
+.navbar{
+		width: 100%;
+		margin: 0 auto;
+	}
+	ul{
+    flex-direction: column;
+
+  }
+  
+  /* deletes margin on top or bottom of the a tag*/
+  li{
+  	width: 100%;
+    margin: 0;
+
+  }
+ /* makes sure that the a tag will take the entire screen*/
+  a{
+    display: block;
+  }
+
+.centered{
+	display: none;
+}
+
+#slider{
+	display: none;
+}
+
+#table-scroll {
+  height:auto;
+  overflow:auto;  
+  margin-top:20px;
+}
+#results{
+	display: none;
+}
+
+#standings{
+	overflow-x: auto;
+		width: 100%;
+		margin: 0 auto;
+}
+
+.table{
+	width: auto;	
+  	overflow-x: auto;
+}
+
+.obrazok-vpravo{
+	display: none;
+}
+.obrazok-vlavo{
+	display: none;
+}
+
+#all-stars{
+	display: none;
+}
+
+.team-logo{
+	display: block;
+	margin: 0 auto;	
+}
+.nazov-klubu{
+	display: block;
+}
+
+#manazer{
+	width: 100%;
+}
+
+div.rules{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+div.rules-article{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.rule-model{
+	display: none;
+}
+
+}
