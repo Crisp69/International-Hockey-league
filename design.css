@@ -464,13 +464,65 @@ div.info-o-postupe{
 
 
 
+div.halloffame{
+	background: url("img/halloffame.jpg");
+	width: 100%;
+	height: 700px;
+}
 
 
 
+table.majster{
+	margin: 0 auto;
+
+}
+table.majster th{
+	background-color: #C8C8C8;
+	padding-bottom: 2px;
+	border: 1px solid black;
+	font-weight: bold;
+}
+table.majster td{
+	padding-left: 20px;
+	width: 200px;
+	text-align: left;
+	border: 1px solid black;
+	font-weight: bold;	
+	padding-bottom: 2px;
+}
 
 
 
+table.medajlove-poradie{
+	margin: 0 auto;
+	margin-top: 50px;
+}
+table.medajlove-poradie td{
+	border: 1px solid black;
+	font-weight: bold;	
+	padding-bottom: 2px;
+}
+table.medajlove-poradie th{
+	padding-bottom: 2px;
+	border: 1px solid black;
+	font-weight: bold;	
+	background-color: #C8C8C8;
+}
 
+.nazov-klubu{
+	text-align: left;
+	width: 200px;
+	padding-left: 3px;
+}
+.medajla{
+	text-align: center;
+	width: 50px;
+}
+
+div.halloffame p{
+	color: black;
+	font-size: 15px;
+}
 
 
 
@@ -567,5 +619,28 @@ div.info-o-postupe{
 	padding-left: 100px;
 	padding-bottom: 20px;
 }
+div.halloffame{
+	background: none;
+	background-color: rgb(255,255,255, 0.7);
+}
+div.table-responsive{
+		overflow-x: auto;
+		width: 100%;
+		margin: 0 auto;
+		background: none;
+		border: none;
+	
+}
 
+table.majster{
+
+	overflow-x: auto;	
+	width:300%;	 	
+	
+}
+
+#short{
+	overflow-x: auto;
+	width: 150%
+}
 }
