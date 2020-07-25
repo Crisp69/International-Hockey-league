@@ -53,6 +53,9 @@ a.navbar-link{
 	color: white;
 }
 
+.uvod{
+	display: flex;
+}
 
 #main-logo-div{
 	text-align: center;
@@ -73,15 +76,43 @@ a.navbar-link{
 }
 
 #slider{
-	
 	width: 100%;
 	height: 850px;
 	background: url("img/clubs/kosice.jpg");
 	animation: slide 30s infinite;
 }
 
+.clanok-news{
+	flex: 0 66.66%;
+    flex-direction: row;
+	font-size: 18px;
+	padding-top: 20px;
+	background-color: rgb(202,201,201, 0.7);
+	font-family: 'B612', sans-serif;
+	border: 2px solid black;
+}
 
+.news{
+	background-color: #cf202e;
+	width: 45px;
+	height: 35px;
+	color: white;
+	padding-top: 7px;
+	font-family: Saira, sans-serif;
+    font-weight: 800;
+    display: block;
+}
 
+.clanky-mobil{
+	 width: 500px;
+	 margin: 0 auto; 
+	 background-color: white;
+	
+}    
+.rozdelenie-clankov{
+	display: flex;
+	margin-top: 35px;
+}
 @keyframes slide{
 	25%{
 		background: url("img/clubs/trencin.jpg");
@@ -97,6 +128,11 @@ a.navbar-link{
 	}
 }
 
+.clanok-uvod{
+	display: flex; background: url(https://thehockeynews.com/wp-content/themes/thn-custom/assets/images/home-feature-text-bg.jpg); 
+	justify-content: center; 
+	width: 720px;
+}
 
 .background-all-stars{
 	width: 100%; 
@@ -658,5 +694,36 @@ div.halloffame{
 	width: 150%
 }
 
+.clanok-news{
+	background-color: rgb(255,255,255, 0.8);
 
+}
+#obrazky-clanky{
+	 width:auto; 
+     text-align:center; 
+     padding:20px;
+}
+img { 
+      width: 100%; 
+      height: 100%; 
+      object-fit: contain; 
+}
+
+#main-logo-div{
+	display: none;
+}
+
+.clanky-mobil{
+	width: 100%;
+
+}
+.rozdelenie-clankov{
+	display: block;
+}
+.uvod{
+	display: block;
+}
+.clanok-uvod{
+	width: 100%;
+}
 }
