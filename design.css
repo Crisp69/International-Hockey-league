@@ -311,7 +311,7 @@ td.nepostupuje{
 	width: 100%;
 	margin: 0 auto;
 	height: 750px;
-	display: block;
+	display: inline-block;
 	overflow-y: scroll;
 	height: 650px;
 }
@@ -581,13 +581,13 @@ div.halloffame p{
 }
 
 
-
-
-#manazeri{
-	width: 100%;
-
-	display: inline-block;
+#mobile-div-manazeri{
+	display: block;
 }
+#manazeri{
+	display: block;
+}
+
 #tabulka-manazerov{
  margin: 0 auto;
 }

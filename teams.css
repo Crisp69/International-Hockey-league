@@ -23,7 +23,9 @@ table.kosice-team td{
 	text-align: center;
 }
 
-
+td{
+	background-color: white;
+}
 
 
 div.slovan-team{
