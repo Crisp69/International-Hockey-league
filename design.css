@@ -307,55 +307,39 @@ td.nepostupuje{
 }
 
 
-
-.logo-manazer{
-	padding-top: 20px;
-	opacity: 0.8
-
-}
-
-#container-manazeri{
+#manazeri{
 	width: 100%;
-	height: auto;
-	display: inline-block;
+	margin: 0 auto;
+	height: 750px;
+	display: block;
 	overflow-y: scroll;
 	height: 650px;
 }
 
-#kosice{
-	background-color: rgb(0, 82, 178, 0.7);
-	width: 100%;
-	height: 300px; 
+table.manazer-ucast{
+	width: 500px;
 }
 
-#manazer{
-	width: 40%;
-	height: 300px;
-	margin: 0 auto;
-	border-radius: 15px;
-	
+table.manazer-ucast th{
+	padding-left: 20px;
+	background-color: rgb(118,118,118, 0.5);
+	text-align: center;
+	font-size: 20px;
+	color: #2A2A2A; 
+}
+table.manazer-ucast tr:nth-child(even) {background: grey}
 
+table.manazer-ucast{
+	margin-left: 50px;
 }
-#manazer h3{
-	 color: white;
-	 font-weight: bold;
-	 font-family: 'Asap', sans-serif;
-}
-#manazer a{
-	 color: white;
-	 font-weight: bold;
-	 font-family: 'Asap', sans-serif;
+table.manazer-ucast td{
+	padding-left: 20px;
+	font-weight: bold;
 }
 
-table.manazer-uspechy th, td{
-	background-color: white;
-	padding: 5px;
-	text-align: left;
-	
-}
-table.manazer-uspechy td{
-	padding: 5px;
-}
+
+
+
 
 .kosice-manazer{
 	background: #0052B2;
@@ -596,9 +580,20 @@ div.halloffame p{
 	display: block;
 }
 
-#manazer{
+
+
+
+#manazeri{
 	width: 100%;
+
+	display: inline-block;
 }
+#tabulka-manazerov{
+ margin: 0 auto;
+}
+
+
+
 
 div.rules{
 	width: 100%;
