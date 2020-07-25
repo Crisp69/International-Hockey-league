@@ -607,9 +607,7 @@ table.majster{
 #mobile-div-manazeri{
 	display: block;
 }
-#manazeri{
-	display: block;
-}
+
 
 #tabulka-manazerov{
  margin: 0 auto;
@@ -649,4 +647,6 @@ div.halloffame{
 	overflow-x: auto;
 	width: 150%
 }
+
+
 }
