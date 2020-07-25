@@ -550,15 +550,38 @@ div.halloffame p{
 	display: none;
 }
 
-#standings{
-	overflow-x: auto;
-		width: 100%;
+.season-standings{
+		overflow-x: auto;
+		width: 200%;
 		margin: 0 auto;
 }
 
+
 .table{
-	width: auto;	
-  	overflow-x: auto;
+	width: 100%;
+	overflow-x: scroll;
+}
+
+div.table-responsive{
+		overflow-x: auto;
+		width: 100%;
+		margin: 0 auto;
+		background: none;
+		border: none;
+	
+}
+
+table.majster{
+
+	overflow-x: auto;	
+	width:300%;	 	
+	
+}
+
+
+#season-standings{
+	width: 350%;
+	overflow-x: scroll;
 }
 
 .obrazok-vpravo{
@@ -620,21 +643,7 @@ div.halloffame{
 	background: none;
 	background-color: rgb(255,255,255, 0.7);
 }
-div.table-responsive{
-		overflow-x: auto;
-		width: 100%;
-		margin: 0 auto;
-		background: none;
-		border: none;
-	
-}
 
-table.majster{
-
-	overflow-x: auto;	
-	width:300%;	 	
-	
-}
 
 #short{
 	overflow-x: auto;

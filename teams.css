@@ -364,4 +364,10 @@ table.bardejov-team td{
 .nazov-klubu{
 	display: block;
 }
+#standings{
+		overflow-x: auto;
+		width: 100%;
+		margin: 0 auto;
+}
+
 }
