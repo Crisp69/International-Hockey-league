@@ -703,7 +703,7 @@ div.halloffame{
      text-align:center; 
      padding:20px;
 }
-img { 
+img.mobile-responsive-img { 
       width: 100%; 
       height: 100%; 
       object-fit: contain; 
@@ -726,4 +726,5 @@ img {
 .clanok-uvod{
 	width: 100%;
 }
+
 }
