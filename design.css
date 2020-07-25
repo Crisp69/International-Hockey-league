@@ -173,8 +173,18 @@ div.paragraph-all-stars{
   top: 42%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: gray;
+  color: white;
   font-size: 75px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+.centered-2 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-28%, -40%);
+  color: white;
+  font-size: 50px;
   font-weight: bold;
   text-shadow: 2px 2px black;
 }
