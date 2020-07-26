@@ -378,4 +378,7 @@ p{
   .logo-playoff{
     display: none;
   }
+  #hide{
+    display: none;
+  }
   }
