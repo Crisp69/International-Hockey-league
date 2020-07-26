@@ -110,6 +110,7 @@ p{
     padding: 40px 0;
 }
 .container {
+
     max-width: 1100px;
     margin: 0 auto;
     display:block;
@@ -302,6 +303,12 @@ p{
   .split-one .vote-box {margin-left: 138px;}
   .hero p.intro {font-size: 28px;}
   .hero p.year {margin: 5px 0 10px;}
+  .logo-tp-playoff{
+    display: none;
+  }
+  .pohar-tp-playoff{
+    display: none;
+  }
 
 }
 
@@ -313,6 +320,12 @@ p{
   .hero p.intro {font-size: 24px;}
   .hero h1 {font-size: 3em; margin: 15px 0;}
   .hero p {font-size: 1em;}
+  .logo-tp-playoff{
+    display: none;
+  }
+  .pohar-tp-playoff{
+    display: none;
+  }
 }
 
 
@@ -326,6 +339,12 @@ p{
   .round-details {font-size: 90%;}
   .hero-wrap {padding: 2.5em;}
   .hero p.year {margin: 5px 0 10px; font-size: 18px;}
+  .logo-tp-playoff{
+    display: none;
+  }
+  .pohar-tp-playoff{
+    display: none;
+  }
 
 }
 
@@ -349,5 +368,11 @@ p{
  /* makes sure that the a tag will take the entire screen*/
   a{
     display: block;
+  }
+  .logo-tp-playoff{
+    display: none;
+  }
+  .pohar-tp-playoff{
+    display: none;
   }
   }
