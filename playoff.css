@@ -60,7 +60,8 @@ p{
 .tabulka-zlatakorcula th{
   background-color: grey;
   text-align: center; 
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid white;
+  color: white;
 }
 
 .umiestnenie-zlatakorcula{
@@ -70,7 +71,7 @@ p{
 .tabulka-zlatakorcula td{
   background-color: #D0D0D0;
   text-align: left;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid white;
 }
 .meno-hraca-v-tabulke-playoff{
   width: 130px;
