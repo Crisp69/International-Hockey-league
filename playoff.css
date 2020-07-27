@@ -413,4 +413,8 @@ body {
   #hide{
     display: none;
   }
+
+  .tabulka-zlatakorcula{
+    margin-top: 5px;
+  }
   }
