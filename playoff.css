@@ -53,7 +53,38 @@ p{
     font-weight: bold;
     font-size: 18px;
 }
-    body {
+
+.tabulka-zlatakorcula{
+  margin-top: 120px;
+}
+.tabulka-zlatakorcula th{
+  background-color: grey;
+  text-align: center; 
+  border-bottom: 1px solid grey;
+}
+
+.umiestnenie-zlatakorcula{
+   font-weight: bold;
+   padding-top: 2px;
+}
+.tabulka-zlatakorcula td{
+  background-color: #D0D0D0;
+  text-align: left;
+  border-bottom: 1px solid grey;
+}
+.meno-hraca-v-tabulke-playoff{
+  width: 130px;
+  padding-top: 2px;
+  font-weight: bold;
+  padding-left: 4px;
+}
+.bodovanie{
+  padding-left: 10px;
+  padding-top: 2px;
+  font-weight: bold;
+}
+
+body {
         font-family: 'Istok Web', sans-serif;
         background: url("http://picjumbo.com/wp-content/uploads/HNCK2189-1300x866.jpg") no-repeat #000;
         background-size: cover;
@@ -111,7 +142,7 @@ p{
 }
 .container {
 
-    max-width: 1100px;
+    max-width: 1800px;
     margin: 0 auto;
     display:block;
     display: -webkit-box;
