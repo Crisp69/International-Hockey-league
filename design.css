@@ -39,7 +39,7 @@ li{
 }
 
 li:hover{
-	background-color: #3faae0;
+	background-color:#3faae0;
 	transition: 0.3s;
 	opacity: 0.7;
 }
@@ -290,6 +290,21 @@ td.nepostupuje{
 	text-align: center;
 	font-size: 15px;
 	font-weight: bold;
+}
+
+.statistiky-hracov tr:nth-child(even){
+				background-color: #E3E3E3;
+}
+.statistiky-hracov th{
+	background-color: #3faae0;
+}
+.meno-hraca{
+	font-family: 'Judson', serif;
+	text-transform: uppercase;
+}
+
+.meno-klubu{
+	font-family: 'Judson', serif;
 }
 
 
