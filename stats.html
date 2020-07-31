@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tipsport liga</title>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=B612:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Staatliches&family=Suez+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Merriweather:ital@1&family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="design.css">
+
+
+</head>
+<body style="background-color: #e6e7e8">
+
+<header style="background-image: url('img/background-image.jpg');">
+    <div id="header-begin"><p>TIPSPORT LIGA</p></div>
+    <div id="main-logo-div"></div>
+	   <nav class="navbar">
+  			<ul>
+    			<li><a href="index.html" style="text-decoration: none; color: white;">News</a></li>
+    			<li><a href="schedule.html" style="text-decoration: none;color: white;">Schedule</a></li>
+    			<li><a href="standings.html" style="text-decoration: none;color: white;">Standings</a></li>
+    			<li><a href="#" style="text-decoration: none;color: white;">Stats</a></li>
+                <li><a href="playoff.html" style="text-decoration: none;color: white;">Play-off</a></li>
+    			<li><a href="team.html" style="text-decoration: none;color: white;">Teams</a></li>
+    			<li><a href="halloffame.html" style="text-decoration: none;color: white;">Hall of Fame</a></li>
+    			<li><a href="managers.html" style="text-decoration: none;color: white;">Managers</a></li>
+    			<li><a href="rules.html" style="text-decoration: none;;color: white;">Rules</a></li>
+    		</ul>
+        </nav>
+</header>   
+
+
+
+<div class="tabulka-hracov-sats" align="center" style="background-color: white;">
+
+ <table class="statistiky-hracov">
+        <tr class="bg-info" style="">
+            <th style="width: 25px;text-align: center;"></th>
+            <th style="width: 250px;text-align: center;">Meno </th>
+            <th style="width: 220px;" onclick="sortColumn('club')">Klub </th>
+            <th style="width: 50px;text-align: center;"  onclick="sortColumn('points')">B </th>
+            <th style="width: 50px;text-align: center;"  onclick="sortColumn('goals')">G </th>
+            <th style="width: 50px;text-align: center;"  onclick="sortColumn('asists')">A </th>
+            <th style="width: 50px;text-align: center;"  onclick="sortColumn('asists')">IŠ </th>
+        </tr>
+        <tbody id="tableData">
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<script type="text/javascript">
+    
+let sortDirection = false;
+let personData = [
+        
+        // BARDEJOV //
+         {'flag':'<img src="img/nat/ir.gif" height="14">', 'name':' Robert Henry ', 'club':'<img src=img/small/bardejov-small.png> Bardejov', 'points':0, 'goals':0, 'asists': 0, 'rating': 456 }, 
+
+        // BYSTRICA //
+        {'flag':'<img src="img/nat/fin.gif" height="14">', 'name':' Niklas Laisi ', 'club':'<img src=img/small/bb-small.png> Bystrica', 'points':0, 'goals':0, 'asists': 0, 'rating': 390 },
+        
+        // DETVA //
+        {'flag':'<img src="img/nat/nor.gif" height="14">', 'name':' Leo Velo ', 'club':'<img src=img/small/detva-small.png> Detva', 'points':0, 'goals':0, 'asists': 0, 'rating': 399 },
+
+        // KOŠICE //
+        {'flag':'<img src="img/nat/cz.gif" height="14">', 'name':'Andrej Mészaroš ', 'club':'<img src=img/small/kosice-small.png> Košice', 'points':0, 'goals':0, 'asists': 0, 'rating': 459 },
+
+        // MICHALOVCE //
+        {'flag':'<img src="img/nat/rus.gif" height="14">', 'name':' Bogdan Mushailov ', 'club':'<img src=img/small/michalovce-small.png> Michalovce', 'points':0, 'goals':0, 'asists': 0, 'rating': 406 },
+
+        // MIKULÁŠ //
+        {'flag':'<img src="img/nat/lot.gif" height="14">', 'name':' Uģis Cālītis ', 'club':'<img src=img/small/mikulas-small.png> Mikuláš', 'points':0, 'goals':0, 'asists': 0, 'rating': 401 },
+
+        // NITRA //
+        {'flag':'<img src="img/nat/ukr.gif" height="14">', 'name':' Yukhym Pidkuimukha <img src="img/nat/ukr.gif" height="12">', 'club':'<img src=img/small/nitra-small.png> Nitra', 'points':0, 'goals':0, 'asists': 0, 'rating': 498 },
+
+        // POPRAD //
+        {'flag':'<img src="img/nat/uk.gif" height="14">', 'name':'  Guy Knowles ', 'club':'<img src=img/small/poprad-small.png> Poprad', 'points':0, 'goals':0, 'asists': 0, 'rating': 457 },
+
+        // SKALICA //
+        {'flag':'<img src="img/nat/kaz.gif" height="14">', 'name':' Erbol Abishev ', 'club':'<img src=img/small/skalica-small.png> Skalica', 'points':0, 'goals':0, 'asists': 0, 'rating': 422 },
+        
+        // SLOVAN //
+        {'flag':'<img src="img/nat/fra.gif" height="14">', 'name':' Didier Marechal ', 'club':'<img src=img/small/slovan-small.png> Slovan', 'points':0, 'goals':0, 'asists': 0, 'rating': 433 },
+        
+        // SPIŠSKÁ //
+        {'flag':'<img src="img/nat/mex.gif" height="14">', 'name':' Acislo Pulido ', 'club':'<img src=img/small/snv-small.png> Spišská', 'points':0, 'goals':0, 'asists': 0, 'rating': 431 },
+               
+        // TRENČÍN //
+        {'flag':'<img src="img/nat/sve.gif" height="14">', 'name':'Pontus Lindgren', 'club':'<img src=img/small/trencin-small.png> Trenčín', 'points':0, 'goals':0, 'asists': 0, 'rating': 470},
+        
+        // ZVOLEN //
+        {'flag':'<img src="img/nat/arg.gif" height="14">', 'name':' Silvio Diamante ', 'club':'<img src=img/small/zvolen-small.png> Zvolen', 'points':0, 'goals':0, 'asists': 0, 'rating': 433 },
+       
+        // ŽILINA //
+        {'flag':'<img src="img/nat/uk.gif" height="14">', 'name':' Thomas Murray ', 'club':'<img src=img/small/zilina-small.png> Zilina', 'points':0, 'goals':0, 'asists': 0, 'rating': 404 },
+    
+ 
+    ];
+
+    window.onload = () => {
+        loadTableData(personData);
+    };
+
+ 
+
+    function loadTableData(personData) {
+        const tableBody = document.getElementById('tableData');
+        let dataHtml = '';
+
+        for(let person of personData){
+            dataHtml +=  `<tr>
+                            <td class="meno-hraca" style="font-weight: bold; padding-left: 3px;">${person.flag}</td>
+                            <td class="meno-hraca" style="font-weight: bold; padding-left: 5px;">${person.name}</td>
+                            <td class="meno-klubu" style="font-size: 14px; padding-top: 2px; padding-bottom: 2px;">${person.club}</td>
+                            <td style="font-weight: bold; text-align: center;">${person.points}</td>
+                            <td style="text-align: center;">${person.goals}</td>
+                            <td style="text-align: center;">${person.asists}</td>
+                            <td style="text-align: center; color: black; font-weight: bold;">${person.rating}</td>
+                      </tr>`
+        }
+    
+        tableBody.innerHTML = dataHtml;
+    }
+
+
+
+    function sortColumn(columnName){
+        const dataType = typeof personData[0][columnName];
+        sortDirection = !sortDirection;
+
+        switch(dataType) {
+            case 'number':
+            sortNumberColumn(sortDirection, columnName);
+            break;
+        }
+        
+        loadTableData(personData);
+    }
+
+    function sortNumberColumn(sort, columnName){
+        personData = personData.sort((p1, p2) => {
+            return sort ? p1[columnName] - p2[columnName] : p2[columnName] - p1[columnName]
+        });
+    }
+
+
+
+
+
+</script>
+
+
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

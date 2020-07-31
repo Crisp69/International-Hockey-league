@@ -291,20 +291,33 @@ td.nepostupuje{
 	font-size: 15px;
 	font-weight: bold;
 }
-
+.statistiky-hracov{
+	padding-top: 15px;
+	background-color: #95A5A6;
+	color: white;
+}
 .statistiky-hracov tr:nth-child(even){
-				background-color: #E3E3E3;
+				background-color: #85929E;
+				color: white;
+
+}
+.statistiky-hracov tr:hover{
+	background-color: #707B7C;
+	color: white;
 }
 .statistiky-hracov th{
-	background-color: #3faae0;
+	 background-color: #273746;
 }
 .meno-hraca{
-	font-family: 'Judson', serif;
-	text-transform: uppercase;
+	font-family: 'Lora', serif;
+	padding-top: 2.5px;
+	font-size: 13px;
+	color: black;
 }
 
 .meno-klubu{
 	font-family: 'Judson', serif;
+	color: black;
 }
 
 
@@ -740,6 +753,16 @@ img.mobile-responsive-img {
 }
 .clanok-uvod{
 	width: 100%;
+}
+
+.tabulka-hracov-sats{
+	width: 100%;
+	overflow-x: scroll;
+}
+.statistiky-hracov{
+	overflow-x: scroll;
+	width: 150%;
+	margin-top: 20px;
 }
 
 }
