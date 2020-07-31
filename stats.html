@@ -49,7 +49,7 @@
             <th style="width: 50px;text-align: center;"  onclick="sortColumn('points')">B </th>
             <th style="width: 50px;text-align: center;"  onclick="sortColumn('goals')">G </th>
             <th style="width: 50px;text-align: center;"  onclick="sortColumn('asists')">A </th>
-            <th style="width: 50px;text-align: center;"  onclick="sortColumn('asists')">IŠ </th>
+            <th style="width: 50px;text-align: center;"  onclick="sortColumn('rating')">IŠ </th>
         </tr>
         <tbody id="tableData">
         
@@ -65,7 +65,7 @@ let sortDirection = false;
 let personData = [
         
         // BARDEJOV //
-         {'flag':'<img src="img/nat/ir.gif" height="14">', 'name':' Robert Henry ', 'club':'<img src=img/small/bardejov-small.png> Bardejov', 'points':0, 'goals':0, 'asists': 0, 'rating': 456 }, 
+         {'flag':'<img src="img/nat/ir.gif" height="14">', 'name':' Robert Henry ', 'club':'<img src=img/small/bardejov-small.png> Bardejov', 'points':2, 'goals':1, 'asists': 2, 'rating': 456 }, 
 
         // BYSTRICA //
         {'flag':'<img src="img/nat/fin.gif" height="14">', 'name':' Niklas Laisi ', 'club':'<img src=img/small/bb-small.png> Bystrica', 'points':0, 'goals':0, 'asists': 0, 'rating': 390 },
@@ -134,7 +134,27 @@ let personData = [
         tableBody.innerHTML = dataHtml;
     }
 
-
+    function leastToGreatest (num) {
+        var array = [];
+        var num1 = 0;
+        var num2 = 0;
+        var num3 = 0;
+        for (var i = 0; i < num.length; i++) {
+           if(num[i] < num[i] && num[i] < num[i]) {
+                  num[i] = num1;
+                  array.push(num1);
+           }
+           else if(num[i] > num[i] && num[i] < num[i]) {
+             num[i] = num2;
+             array.push(num2);
+           }
+           else if(num[i] > num[i] && num[i] > num[i])
+             num[i] = num3;
+             array.push(num3);
+           }
+           return array;
+     }
+     leastToGreatest(2,1,3);
 
     function sortColumn(columnName){
         const dataType = typeof personData[0][columnName];
