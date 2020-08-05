@@ -30,7 +30,7 @@ li{
 	width: 100px; 
  	text-align:center;
   	list-style-type: none;  
-   	background-color: #0971ba;
+   	background: #0971ba;
 	font-size: 20px;
     margin: 0 10px;
     width: 300px;
@@ -581,6 +581,11 @@ table.medajlove-poradie th{
 div.halloffame p{
 	color: black;
 	font-size: 15px;
+}
+
+.news:focus, .news:hover{
+		transform: scale(1.01);
+		transition: all 1s ease;
 }
 
 

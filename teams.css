@@ -48,7 +48,10 @@ table.slovan-team td{
 	text-align: center;
 }
 
-
+img:hover, img:focus{
+		transform: scale(1.07);
+		transition: all 1s ease;
+}
 
 div.trencin-team{
 	background: #AE2726;
