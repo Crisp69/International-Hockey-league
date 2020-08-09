@@ -820,4 +820,8 @@ img.mobile-responsive-img {
 	padding: 5px;
 	font-size: 18px;
 }
+
+#skryt-pre-mobil{
+	display: none;
+}
 }
