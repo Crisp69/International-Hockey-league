@@ -294,6 +294,7 @@ td.nepostupuje{
 .statistiky-hracov{
 	background-color: #95A5A6;
 	color: white;
+
 }
 .statistiky-hracov tr:nth-child(even){
 				background-color: #85929E;
@@ -460,6 +461,10 @@ p.nazov-klubu{
 	text-align: center;
 }
 
+.tabulka-hracov-stats{
+		overflow-y: scroll;
+	height: 650px;
+}
 
 table.patka-tyzdna{
 	background: url("img/hockey-zone.png");
@@ -634,6 +639,10 @@ div.halloffame p{
 		margin: 0 auto;
 }
 
+.season-standings td{
+  	font-size: 8px;
+}
+
 
 .table{
 	width: 100%;
@@ -759,9 +768,10 @@ img.mobile-responsive-img {
 	width: 100%;
 }
 
-.tabulka-hracov-sats{
+.tabulka-hracov-stats{
 	width: 100%;
 	overflow-x: scroll;
+
 }
 .statistiky-hracov{
 	overflow-x: scroll;
