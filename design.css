@@ -252,6 +252,7 @@ div.paragraph-all-stars{
 .season-standings  td:last-child {
     background-color: #c7c6c6;
     text-align: center;
+    font-size: 15px;
 }
 
 th.header{
