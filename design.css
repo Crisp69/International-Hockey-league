@@ -56,6 +56,9 @@ a.navbar-link{
 .uvod{
 	display: flex;
 }
+.hviezdy{
+	display: flex;
+}
 
 #main-logo-div{
 	text-align: center;
@@ -412,7 +415,12 @@ table.manazer-ucast td{
 	
 }
 
-.formacia-tabulka td, th{
+.formacia-tabulka td{
+	color: white;
+	padding: 5px;
+	font-size: 25px;
+}
+.formacia-tabulka th{
 	color: white;
 	padding: 5px;
 	font-size: 25px;
