@@ -396,6 +396,16 @@ table.manazer-ucast td{
 	background-color: #A90000;
 }
 
+#hrac-tyzdna-pp{
+	border-radius: 50%; 
+	background-color: #01245E;
+}
+
+#hrac-tyzdna-bj{
+	border-radius: 50%; 
+	background-color: #c52431;
+}
+
 
 #hrac-tyzdna-mi{
 	border-radius: 50%; 
@@ -418,7 +428,7 @@ table.manazer-ucast td{
 .formacia-tabulka td{
 	color: white;
 	padding: 5px;
-	font-size: 25px;
+	font-size: 20px;
 }
 .formacia-tabulka th{
 	color: white;
@@ -426,11 +436,17 @@ table.manazer-ucast td{
 	font-size: 25px;
 }
 
-.formacia-tabulka td:nth-child(3){
+.formacia-tabulka td:nth-child(4){
 	color: white;
 	padding-left: 55px;
 	
 }
+.formacia-tabulka td:nth-child(2){
+	color: white;
+	text-align: center;
+	
+}
+
 
 .formacia-tabulka th:nth-child(3){
 	color: white;
