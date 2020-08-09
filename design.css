@@ -134,44 +134,7 @@ a.navbar-link{
 	width: 720px;
 }
 
-.background-all-stars{
-	width: 100%; 
-	height: auto; 
-	background: url("img/logo-pozadie.jpg");
 
-}
-
-#all-stars{
-	width: 70%; 
-	margin: 0 auto; 
-	height: 600px; 
-	background: url(img/hockey-zone-new.png);
-	margin-top: 20px;
-}
-
-p.nazov-tim-tyzdna{
-	color: gold; 
-	font-size: 35px; 
-	padding-top: 15px; 
-	font-family: 'Anton', sans-serif;
-}
-
-p.nazov-tim-tyzdna-2{
-	color: gold; 
-	font-size: 35px; 
-	padding-top: 20px;
-	padding-left: 190px;
-	padding-top: 15px;
-	font-family: 'Anton', sans-serif;
-
-}
-
-div.paragraph-all-stars{
-	 display: flex;
-	 width: 100%;
-	 margin-left: 265px;
-	 padding-top: 20px;
-}
 
 .nazov-hraca{
 	color: black;
