@@ -129,7 +129,8 @@ a.navbar-link{
 }
 
 .clanok-uvod{
-	display: flex; background: url(https://thehockeynews.com/wp-content/themes/thn-custom/assets/images/home-feature-text-bg.jpg); 
+	display: flex;
+	background: url(https://thehockeynews.com/wp-content/themes/thn-custom/assets/images/home-feature-text-bg.jpg); 
 	justify-content: center; 
 	width: 720px;
 }
@@ -381,6 +382,55 @@ table.manazer-ucast td{
 }
 
 
+.tim-tyzdna{
+	background-color: black;
+	height: 460px;
+	width: 100%;
+}
+
+#hrac-tyzdna-bb{
+	border-radius: 50%; 
+	background-color: #A90000;
+}
+
+
+#hrac-tyzdna-mi{
+	border-radius: 50%; 
+	background-color: #F58220;
+}
+
+
+.formacia-tyzdna{
+	display: flex;
+	margin-top: 10px;
+}
+
+.formacia-tyzdna-article{
+	background: #1D1D1D; 
+	width: 1200px;
+	display: flex;
+	
+}
+
+.formacia-tabulka td, th{
+	color: white;
+	padding: 5px;
+	font-size: 25px;
+}
+
+.formacia-tabulka td:nth-child(3){
+	color: white;
+	padding-left: 55px;
+	
+}
+
+.formacia-tabulka th:nth-child(3){
+	color: white;
+	padding-left: 55px;
+	
+}
+
+
 
 
 
@@ -496,12 +546,12 @@ div.info-o-postupe{
 }
 
 
-
 div.halloffame{
 	background: url("img/halloffame.jpg");
 	width: 100%;
-	height: 700px;
+	height: 750px;
 }
+
 
 
 
@@ -744,4 +794,30 @@ img.mobile-responsive-img {
 	margin-top: 20px;
 }
 
+.tim-tyzdna{
+	display: block;
+}
+
+.formacia-tyzdna-article{
+	width: 100%;
+	display: block;
+	padding-left: none;
+}
+
+#formacia-tyzdna{
+	margin-left: none;
+}
+#hviezda-kola{
+	margin-left: -180px;
+}
+
+.hide{
+	display: none;
+}
+
+.formacia-tabulka td, th{
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+}
 }
