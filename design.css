@@ -839,4 +839,14 @@ img.mobile-responsive-img {
 #skryt-pre-mobil{
 	display: none;
 }
+
+.formacia-tyzdna-article{
+		width: 120%;
+	overflow-x: scroll;
+}
+
+.formacia-tabulka{
+	width: 120%;
+	overflow-x: scroll;
+}
 }
