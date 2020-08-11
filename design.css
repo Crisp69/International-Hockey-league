@@ -216,40 +216,46 @@ a.navbar-link{
 	 padding: 2px;
 }
 
-.season-standings  td:last-child {
+.season-standings  td:nth-child(11) {
     background-color: #c7c6c6;
     text-align: center;
     font-size: 15px;
+    border-right: 1px solid #c7c6c6;
+}
+
+.forma{
+	border-bottom: 1px solid #c7c6c6;
+	padding: 3px;
 }
 
 th.header{
-	border-bottom: 2px solid #c7c6c6;
+	border-bottom: 1px solid #c7c6c6;
 	font-size: 17px;
 	padding: 10px;
 	background-color: #c7c6c6;
 }
 
 td.stats{
-	border-bottom: 2px solid #c7c6c6;
+	border-bottom: 1px solid #c7c6c6;
 	font-size: 14px;
-	padding: 10px;
-	width: 70px;
+	padding: 3px;
+	width: 50px;
 }
 
 td.logo{
-	border-bottom: 2px solid #c7c6c6;
+	border-bottom: 1px solid #c7c6c6;
 	padding-left: 7px;
 }
 
 td.club-name{
-	border-bottom: 2px solid #c7c6c6;
+	border-bottom: 1px solid #c7c6c6;
 	padding: 5px;
 	font-size: 15px;
 	width: 250px;
 }
 
 td.postupuje{
-	border-bottom: 2px solid #c7c6c6;
+	border-bottom: 1px solid #c7c6c6;
 	background-color: #004682;
 	color: white;
 	text-align: center;
@@ -257,7 +263,7 @@ td.postupuje{
 	font-weight: bold;
 }
 td.nepostupuje{
-	border-bottom: 2px solid #c7c6c6;
+	border-bottom: 1px solid #c7c6c6;
 	background-color: #bd0000;
 	color: white;
 	text-align: center;
