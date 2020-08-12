@@ -39,32 +39,29 @@
 
 
 
-<div class="tabulka-hracov-stats" align="center" >
-
-
-
-    <div style="height: auto;">
+<div class="tabulka-hracov-stats" align="center">
+        
          <div class="odkazy-stats">
-            <a href="stats.html">Hráči</a>  
-            <a href="brankari.html">Brankári</a>
+            <a href="stats.html"><b class="skryt-pre-pc">Hráči</b><img id="skryt-pre-mobil" src="img/player.png" height="150"></a>  
+            
+            <a href="brankari.html"><b class="skryt-pre-pc">Brankári</b><img id="skryt-pre-mobil" src="img/goalie.png" height="150"></a>
          </div>
 
+     
         <table class="statistiky-hracov">
-        <tr class="bg-info" style="">
-            <th style="width: 25px;text-align: center;"></th>
-            <th style="width: 270px;text-align: center;">Meno </th>
-            <th style="width: 220px;" onclick="sortColumn('club')">Klub </th>
-            <th style="width: 50px;text-align: center;"  onclick="sortColumn('age')">Vek </th>
-            <th style="width: 50px;text-align: center;"  onclick="sortColumn('rating')">IŠ </th>
-            <th style="width: 50px;text-align: center;"  onclick="sortColumn('zapasy')">Zápasy</th>
-            <th style="width: 80px;text-align: center;"  onclick="sortColumn('uspesnost')">%</th>
-            <th style="width: 100px;text-align: center;"  onclick="sortColumn('goals')">IG</th>
-        </tr>
-        <tbody id="tableData">
-        
-        </tbody>
+            <tr class="bg-info" style="">
+                <th style="width: 25px;text-align: center;"></th>
+                <th style="width: 270px;text-align: center;">Meno </th>
+                <th style="width: 220px;" onclick="sortColumn('club')">Klub </th>
+                <th style="width: 50px;text-align: center;"  onclick="sortColumn('age')">Vek </th>
+                <th style="width: 50px;text-align: center;"  onclick="sortColumn('rating')">IŠ </th>
+                <th style="width: 50px;text-align: center;"  onclick="sortColumn('zapasy')">Z</th>
+                <th style="width: 50px;text-align: center;"  onclick="sortColumn('uspesnost')">%</th>
+                <th style="width: 50px;text-align: center;"  onclick="sortColumn('goals')">IG</th>
+            </tr>
+            <tbody id="tableData"></tbody>
         </table>
-    </div>
+ 
 </div>
 
 

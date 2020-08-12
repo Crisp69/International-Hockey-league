@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 
+
 html, body {
   height: 100%;
 }
@@ -277,20 +278,20 @@ td.nepostupuje{
 
 .odkazy-stats{
 	text-align: center;
-	background-color:#566573;
+	
 	padding: 10px; 
+    width: 765px;
 }
 .odkazy-stats a{
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
-	font-size: 15px; 
+	font-size: 25px; 	
 }
 
 .statistiky-hracov{
 	background-color: #95A5A6;
 	color: white;
-	
 }
 .statistiky-hracov tr:nth-child(even){
 				background-color: #85929E;
@@ -466,7 +467,11 @@ table.manazer-ucast td{
 }
 
 .tabulka-hracov-stats{
+	height: 600px;
+	overflow-y: scroll;
 	background-color: white;
+	
+
 }
 
 
@@ -895,3 +900,13 @@ img.mobile-responsive-img {
 	width: 700px;
 }
 }
+
+
+
+
+@media only screen and (min-width: 760px){ 
+	.skryt-pre-pc{
+	display: none;
+}
+
+}	
