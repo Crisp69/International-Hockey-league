@@ -270,10 +270,23 @@ td.nepostupuje{
 	font-size: 15px;
 	font-weight: bold;
 }
+
+.odkazy-stats{
+	text-align: center;
+	background-color:#566573;
+	padding: 10px; 
+}
+.odkazy-stats a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px; 
+}
+
 .statistiky-hracov{
 	background-color: #95A5A6;
 	color: white;
-
+	
 }
 .statistiky-hracov tr:nth-child(even){
 				background-color: #85929E;
@@ -448,7 +461,10 @@ table.manazer-ucast td{
 	
 }
 
-
+.tabulka-hracov-stats{
+	display: flex;
+	background-color: white;
+}
 
 
 
@@ -502,7 +518,6 @@ p.nazov-klubu{
 }
 
 .tabulka-hracov-stats{
-		overflow-y: scroll;
 	height: 650px;
 }
 
@@ -854,5 +869,28 @@ img.mobile-responsive-img {
 .formacia-tabulka{
 	width: 120%;
 	overflow-x: scroll;
+}
+
+.tabulka-hracov-stats{
+	display: block;
+}
+
+.odkazy-stats{
+	text-align: left;
+	padding-left: 150px;
+	margin-top: 18px;
+	overflow-x: scroll;
+	width: 600px;
+	background-color: white;
+	color: black;
+	display: flex;
+}
+.odkazy-stats a{
+	color: black
+}
+
+.statistiky-hracov{
+	overflow-x: scroll;
+	width: 700px;
 }
 }

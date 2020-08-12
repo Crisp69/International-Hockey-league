@@ -21,13 +21,13 @@
 
 <header style="background-image: url('img/background-image.jpg');">
     <div id="header-begin"><p>TIPSPORT LIGA</p></div>
-    <div id="main-logo-div"></div>
+    <div align="center"><img src="img/logo/tipsport_liga.png"></div>
 	   <nav class="navbar">
   			<ul>
     			<li><a href="index.html" style="text-decoration: none; color: white;">News</a></li>
     			<li><a href="schedule.html" style="text-decoration: none;color: white;">Schedule</a></li>
     			<li><a href="standings.html" style="text-decoration: none;color: white;">Standings</a></li>
-    			<li ><a href="stats.html" style="text-decoration: none;color: white;">Stats</a></li>
+    			<li><a href="stats.html" style="text-decoration: none;color: white;">Stats</a></li>
                 <li><a href="playoff.html" style="text-decoration: none;color: white;">Play-off</a></li>
     			<li><a href="team.html" style="text-decoration: none;color: white;">Teams</a></li>
     			<li><a href="halloffame.html" style="text-decoration: none;color: white;">Hall of Fame</a></li>
@@ -39,36 +39,34 @@
 
 
 
-<div class="tabulka-hracov-stats" align="center">
+<div class="tabulka-hracov-stats" align="center" >
 
- <img id="skryt-pre-mobil" src="img/hockey-player.jpg"> 
+ <img id="skryt-pre-mobil" src="img/goalie.png" height="626" width="650"> 
 
-    <div style="height: 650px;overflow-y: scroll; ">
-
-        <div class="odkazy-stats">
-         <a href="stats.html">Hráči</a>   
-         <a href="brankari.html">Brankári</a>
-        </div> 
+    <div style="height: auto;">
+         <div class="odkazy-stats">
+            <a href="stats.html">Hráči</a>  
+            <a href="brankari.html">Brankári</a>
+         </div>
         <table class="statistiky-hracov">
-            <tr class="bg-info" style="">
-                <th style="text-align: center;"></th>
-                <th style="width: 25px;text-align: center;"></th>
-                <th style="width: 270px;text-align: center;">Meno </th>
-                <th style="width: 220px;" onclick="sortColumn('club')">Klub </th>
-                <th style="width: 50px;text-align: center;"  onclick="sortColumn('age')">Vek </th>
-                <th style="width: 50px;text-align: center;"  onclick="sortColumn('rating')">IŠ </th>
-                <th style="width: 50px;text-align: center;"  onclick="sortColumn('points')">B </th>
-                <th style="width: 50px;text-align: center;"  onclick="sortColumn('goals')">G </th>
-                <th style="width: 50px;text-align: center;"  onclick="sortColumn('asists')">A </th>
-            </tr>
+        <tr class="bg-info" style="">
+            <th style="width: 25px;text-align: center;"></th>
+            <th style="width: 270px;text-align: center;">Meno </th>
+            <th style="width: 220px;" onclick="sortColumn('club')">Klub </th>
+            <th style="width: 50px;text-align: center;"  onclick="sortColumn('age')">Vek </th>
+            <th style="width: 50px;text-align: center;"  onclick="sortColumn('rating')">IŠ </th>
+            <th style="width: 50px;text-align: center;"  onclick="sortColumn('zapasy')">Zápasy</th>
+            <th style="width: 80px;text-align: center;"  onclick="sortColumn('uspesnost')">%</th>
+            <th style="width: 100px;text-align: center;"  onclick="sortColumn('goals')">IG</th>
+        </tr>
         <tbody id="tableData">
         
         </tbody>
     </table>
-  </div>  
-  
-     
-  
+</div>
+
+ 
+
 </div>
 
 
@@ -78,7 +76,6 @@
 
 
 
-<script type="text/javascript" src="stats-hraci.js"></script>
-<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="stats-brankari.js"></script>
 </body>
 </html>
