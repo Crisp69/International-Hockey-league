@@ -561,12 +561,11 @@ div.rules, p{
 div.rules{
 	overflow-y: scroll; 
 	height: 700px; 
-	background-color: rgb(37, 121, 182, 0.7);
+	background-color: rgb(255, 255, 255, 0.2);
 }
-div.rules-article{
+.rules-article{
 	width: 50%;
 	margin: 0 auto;
-	
 	opacity: 0.8;
 }
 p.pre-manazerov{
@@ -899,6 +898,11 @@ img.mobile-responsive-img {
 	overflow-x: scroll;
 	width: 700px;
 }
+.rules-article{
+	width: 100%;
+}
+
+
 }
 
 
