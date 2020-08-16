@@ -470,7 +470,11 @@ table.manazer-ucast td{
 	text-align: center;
 	padding: 5px;
 }
-.hrac-kola-tabulka td:nth-child(3),td:nth-child(4){
+.hrac-kola-tabulka td:nth-child(3){
+	text-align: center;	
+}
+
+.hrac-kola-tabulka td:nth-child(4){
 	text-align: center;	
 }
 
