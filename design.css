@@ -431,6 +431,11 @@ table.manazer-ucast td{
 	background-color: #01245E;
 }
 
+#hrac-tyzdna-snv{
+	border-radius: 50%; 
+	background-color: #0F2648;
+}
+
 #hrac-tyzdna-bj{
 	border-radius: 50%; 
 	background-color: #c52431;
@@ -442,42 +447,37 @@ table.manazer-ucast td{
 	background-color: #F58220;
 }
 
-
-.formacia-tyzdna{
-	display: flex;
-	margin-top: 10px;
-}
-
-.formacia-tyzdna-article{
-	background: #1D1D1D; 
-	width: 1200px;
-	display: flex;
-	
-}
-
-.formacia-tabulka td{
-	color: white;
-	padding: 5px;
-	font-size: 20px;
-}
-.formacia-tabulka th{
-	color: white;
+.hviezda-kola{
 	padding: 5px;
 	font-size: 25px;
+	text-align: center;
+}
+.hrac-kola-tabulka{
+	margin: 0 auto;
+	color: black;
 }
 
-.formacia-tabulka td:nth-child(4){
-	color: white;
-	padding-left: 55px;
-	
+.hrac-kola-tabulka td{
+	padding: 5px;
+	font-size: 20px;
+	border-bottom: 1px solid grey;
+}
+
+.hrac-kola-tabulka td:nth-child(1){
+	border-right: 1px solid grey;
+}
+.hrac-kola-tabulka th{
+	text-align: center;
+	padding: 5px;
+}
+.hrac-kola-tabulka td:nth-child(3),td:nth-child(4){
+	text-align: center;	
 }
 
 .tabulka-hracov-stats{
 	height: 600px;
 	overflow-y: scroll;
 	background-color: white;
-	
-
 }
 
 
@@ -906,6 +906,10 @@ img.mobile-responsive-img {
 }
 .rules-article{
 	width: 100%;
+}
+
+.hrac-kola-tabulka th{
+	color: black;
 }
 
 
