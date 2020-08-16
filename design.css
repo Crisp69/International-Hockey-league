@@ -228,6 +228,10 @@ a.navbar-link{
     border-right: 1px solid #c7c6c6;
 }
 
+.season-standings  td:nth-child(9), td:nth-child(10) {
+    text-align: center;
+}
+
 .forma{
 	border-bottom: 1px solid #c7c6c6;
 	padding: 3px;
