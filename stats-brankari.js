@@ -38,7 +38,7 @@ let personData = [
 
 
         // POPRAD //
-        {'flag':'<img src="img/nat/cz.gif" height="12">', 'name':'  Martin Horák <img src="img/nat/cz.gif" height="16" style="padding-bottom: 6px;"> ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 33,'rating': 519,
+        {'flag':'<img src="img/nat/cz.gif" height="12">', 'name':'  Martin Horák ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 33,'rating': 519,
                                                         'zapasy':2,'uspesnost':95.00, 'goals':2},
 
 
