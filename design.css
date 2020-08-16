@@ -480,7 +480,13 @@ table.manazer-ucast td{
 	background-color: white;
 }
 
-
+.article-title{
+	font-weight: bold;
+	font-size:20px;
+	padding-top: 10px;
+	text-align: left;
+	color: #000000;
+}
 
 
 
