@@ -228,10 +228,12 @@ a.navbar-link{
     border-right: 1px solid #c7c6c6;
 }
 
-.season-standings  td:nth-child(9), td:nth-child(10) {
-    text-align: center;
+.season-standings  td:nth-child(3) {
+    text-align: left;
 }
-
+.season-standings  td, th{
+	text-align: center;
+}
 .forma{
 	border-bottom: 1px solid #c7c6c6;
 	padding: 3px;
@@ -240,7 +242,7 @@ a.navbar-link{
 th.header{
 	border-bottom: 1px solid #c7c6c6;
 	font-size: 17px;
-	padding: 10px;
+	padding: 17px;
 	background-color: #c7c6c6;
 }
 
