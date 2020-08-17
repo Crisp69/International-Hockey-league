@@ -431,6 +431,11 @@ table.manazer-ucast td{
 	background-color: #01245E;
 }
 
+#hrac-tyzdna-dt{
+	border-radius: 50%; 
+	background-color: #AFA715;
+}
+
 #hrac-tyzdna-snv{
 	border-radius: 50%; 
 	background-color: #0F2648;
