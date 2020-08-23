@@ -505,14 +505,16 @@ let personData = [
                             <td style="text-align: center;">${person.asists}</td>
                             
                       </tr>`
+
         }
-    
+       
         tableBody.innerHTML = dataHtml;
+        
     }
 
+  
 
-
-    function sortColumn(columnName){
+   function sortColumn(columnName){
         const dataType = typeof personData[0][columnName];
         sortDirection = !sortDirection;
 
