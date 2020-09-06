@@ -3,31 +3,31 @@ let personData = [
         
         // BARDEJOV //
          {'position': 'RW','flag':'<img src="img/nat/bra.gif" height="12">', 'name':' Giovani Teles ', 'club':'<img src=img/small/bardejov-small.png> Bardejov','age': 29,'rating': 429, 
-                                                                        'points':5, 'goals':2, 'asists': 3,  }, 
+                                                                        'points':7, 'goals':4, 'asists': 3,  }, 
 
          {'position': 'RW','flag':'<img src="img/nat/cz.gif" height="12">', 'name':' Jakub Buček ', 'club':'<img src=img/small/bardejov-small.png> Bardejov','age': 30,'rating': 427, 
-                                                                        'points':6, 'goals':6, 'asists': 0,  },
+                                                                        'points':7, 'goals':6, 'asists': 1,  },
 
          {'position': 'RW','flag':'<img src="img/nat/mad.gif" height="12">', 'name':'  Alajos Bocskai ', 'club':'<img src=img/small/bardejov-small.png> Bardejov','age': 35,'rating': 388, 
                                                                         'points':3, 'goals':3, 'asists': 0,  }, 
 
          {'position': 'C','flag':'<img src="img/nat/cz.gif" height="12">', 'name':' Filip Kaštyl ', 'club':'<img src=img/small/bardejov-small.png> Bardejov','age': 31,'rating': 410, 
-                                                                        'points':13, 'goals':1, 'asists': 12,  },
+                                                                        'points':15, 'goals':1, 'asists': 14,  },
 
          {'position': 'C','flag':'<img src="img/nat/cz.gif" height="12">', 'name':' Dzianis Miadzvedz ', 'club':'<img src=img/small/bardejov-small.png> Bardejov','age': 34,'rating': 347, 
                                                                         'points':4, 'goals':0, 'asists': 4,  }, 
 
          {'position': 'C','flag':'<img src="img/nat/biel.gif" height="12">', 'name':' Ján Maras ', 'club':'<img src=img/small/bardejov-small.png> Bardejov','age': 31,'rating': 424, 
-                                                                        'points':13, 'goals':2, 'asists': 11,  },
+                                                                        'points':14, 'goals':2, 'asists': 12,  },
 
          {'position': 'LW','flag':'<img src="img/nat/bel.gif" height="12">', 'name':' Siebe Hondshoven   ', 'club':'<img src=img/small/bardejov-small.png> Bardejov','age': 25,'rating': 304, 
-                                                                        'points':4, 'goals':3, 'asists': 1,  },
+                                                                        'points':5, 'goals':4, 'asists': 1,  },
 
          {'position': 'LW','flag':'<img src="img/nat/ir.gif" height="12">', 'name':' Robert Henry  ', 'club':'<img src=img/small/bardejov-small.png> Bardejov','age': 30,'rating': 457, 
-                                                                        'points':11, 'goals':7, 'asists': 4,  },
+                                                                        'points':12, 'goals':8, 'asists': 4,  },
 
          {'position': 'LW','flag':'<img src="img/nat/fin.gif" height="12">', 'name':' Einari Vuollu  ', 'club':'<img src=img/small/bardejov-small.png> Bardejov','age': 29,'rating': 433, 
-                                                                        'points':9, 'goals':8, 'asists': 1,  },
+                                                                        'points':11, 'goals':9, 'asists': 2,  },
 
          {'position': 'RD','flag':'<img src="img/nat/sva.gif" height="12">', 'name':'Raphael Grogg  ', 'club':'<img src=img/small/bardejov-small.png> Bardejov','age': 31,'rating': 320, 
                                                                         'points':1, 'goals':0, 'asists': 1,  },
@@ -36,7 +36,7 @@ let personData = [
                                                                         'points':2, 'goals':0, 'asists': 2,  },    
 
          {'position': 'LD','flag':'<img src="img/nat/hr.gif" height="12">', 'name':'Fabijan Drempetić  ', 'club':'<img src=img/small/bardejov-small.png> Bardejov','age': 31,'rating': 425, 
-                                                                        'points':1, 'goals':0, 'asists': 1,  },  
+                                                                        'points':2, 'goals':0, 'asists': 2,  },  
 
 
 
@@ -52,10 +52,10 @@ let personData = [
                                                                         'points':4, 'goals':4, 'asists': 0,  },
         
         {'position': 'C','flag':'<img src="img/nat/domr.gif" height="12">', 'name':'   Dionisio Duarte <img src="img/nat/domr.gif" height="16" style="padding-bottom: 6px;">  ', 'club':'<img src=img/small/bb-small.png> Bystrica','age': 29,'rating': 354, 
-                                                                        'points':2, 'goals':0, 'asists': 2,  },
+                                                                        'points':3, 'goals':0, 'asists': 3,  },
                                                                         
         {'position': 'C','flag':'<img src="img/nat/sva.gif" height="12">', 'name':'  Fritz Stahel ', 'club':'<img src=img/small/bb-small.png> Bystrica','age': 29,'rating': 354, 
-                                                                        'points':13, 'goals':0, 'asists': 13,  },
+                                                                        'points':16, 'goals':0, 'asists': 16,  },
 
         {'position': 'C','flag':'<img src="img/nat/cz.gif" height="12">', 'name':'  Jan Šindelář ', 'club':'<img src=img/small/bb-small.png> Bystrica','age': 33,'rating': 373, 
                                                                         'points':2, 'goals':1, 'asists': 1,  },
@@ -64,16 +64,16 @@ let personData = [
                                                                         'points':2, 'goals':1, 'asists': 1,  },
 
         {'position': 'LW','flag':'<img src="img/nat/mad.gif" height="12">', 'name':'  Miklós Lukács ', 'club':'<img src=img/small/bb-small.png> Bystrica','age': 26,'rating': 324, 
-                                                                        'points':6, 'goals':6, 'asists': 0,  },
+                                                                        'points':8, 'goals':8, 'asists': 0,  },
 
         {'position': 'LW','flag':'<img src="img/nat/ir.gif" height="12">', 'name':'  Dougal Ethelbert ', 'club':'<img src=img/small/bb-small.png> Bystrica','age': 35,'rating': 430, 
-                                                                        'points':1, 'goals':1, 'asists': 0,  },
+                                                                        'points':4, 'goals':4, 'asists': 0,  },
 
         {'position': 'LW','flag':'<img src="img/nat/sva.gif" height="12">', 'name':' Reto Moggi ', 'club':'<img src=img/small/bb-small.png> Bystrica','age': 28,'rating': 296, 
                                                                         'points':4, 'goals':2, 'asists': 2,  },
 
         {'position': 'LW','flag':'<img src="img/nat/rus.gif" height="12">', 'name':' Maksim Zheleznov ', 'club':'<img src=img/small/bb-small.png> Bystrica','age': 30,'rating': 330, 
-                                                                        'points':3, 'goals':3, 'asists': 0,  },
+                                                                        'points':6, 'goals':4, 'asists': 2,  },
         
         {'position': 'LW','flag':'<img src="img/nat/slo.gif" height="12">', 'name':' Jure Murič ', 'club':'<img src=img/small/bb-small.png> Bystrica','age': 33,'rating': 318, 
                                                                         'points':2, 'goals':1, 'asists': 1,  },
@@ -85,7 +85,7 @@ let personData = [
                                                                         'points':4, 'goals':1, 'asists': 3,  },
 
         {'position': 'RD','flag':'<img src="img/nat/nem.gif" height="12">', 'name':'  Hubert Rehaag ', 'club':'<img src=img/small/bb-small.png> Bystrica','age': 34,'rating': 402, 
-                                                                        'points':2, 'goals':0, 'asists': 2,  },
+                                                                        'points':4, 'goals':0, 'asists': 4,  },
 
         {'position': 'RD','flag':'<img src="img/nat/lot.gif" height="12">', 'name':'  Francis Runcis ', 'club':'<img src=img/small/bb-small.png> Bystrica','age': 32,'rating': 310, 
                                                                         'points':1, 'goals':0, 'asists': 1,  },
@@ -107,13 +107,13 @@ let personData = [
                                                                         'points':3, 'goals':3, 'asists': 0,  },
 
         {'position': 'RW','flag':'<img src="img/nat/svk.gif" height="12">', 'name':' Egon Sopík ', 'club':'<img src=img/small/detva-small.png> Detva','age': 26,'rating': 322, 
-                                                                        'points':6, 'goals':5, 'asists': 1,  },
+                                                                        'points':7, 'goals':5, 'asists': 2,  },
 
         {'position': 'RW','flag':'<img src="img/nat/chile.gif" height="12">', 'name':' Adrián Ortiz ', 'club':'<img src=img/small/detva-small.png> Detva','age': 25,'rating': 325, 
-                                                                        'points':6, 'goals':3, 'asists': 3,  },
+                                                                        'points':7, 'goals':4, 'asists': 3,  },
 
         {'position': 'C','flag':'<img src="img/nat/cz.gif" height="12">', 'name':' Jakub Frydrych ', 'club':'<img src=img/small/detva-small.png> Detva','age': 25,'rating': 302, 
-                                                                        'points':8, 'goals':0, 'asists': 8,  },
+                                                                        'points':10, 'goals':1, 'asists': 9,  },
 
         {'position': 'C','flag':'<img src="img/nat/newz.gif" height="12">', 'name':'Nikita Novodvorov ', 'club':'<img src=img/small/detva-small.png> Detva','age': 27,'rating': 276, 
                                                                         'points':8, 'goals':0, 'asists': 8,  },
@@ -134,7 +134,7 @@ let personData = [
                                                                         'points':1, 'goals':0, 'asists': 1,  },
         
         {'position': 'RD','flag':'<img src="img/nat/nor.gif" height="12">', 'name':' Leo Velo ', 'club':'<img src=img/small/detva-small.png> Detva','age': 27,'rating': 403, 
-                                                                        'points':2, 'goals':0, 'asists': 2,  },
+                                                                        'points':3, 'goals':0, 'asists': 3,  },
 
         {'position': 'LD','flag':'<img src="img/nat/uk.gif" height="12">', 'name':' Vladimir Penev ', 'club':'<img src=img/small/detva-small.png> Detva','age': 25,'rating': 310, 
                                                                         'points':4, 'goals':0, 'asists': 4,  },
@@ -143,7 +143,7 @@ let personData = [
                                                                         'points':1, 'goals':0, 'asists': 1,  },
 
         {'position': 'LD','flag':'<img src="img/nat/uk.gif" height="12">', 'name':' Luka Belousov ', 'club':'<img src=img/small/detva-small.png> Detva','age': 25,'rating': 310, 
-                                                                        'points':1, 'goals':0, 'asists': 1,  },
+                                                                        'points':2, 'goals':0, 'asists': 2,  },
 
         
 
@@ -154,28 +154,28 @@ let personData = [
                                                                         'points':7, 'goals':5, 'asists': 2,  },
 
         {'position': 'RW','flag':'<img src="img/nat/sve.gif" height="12">', 'name':' Henrik Eriksson ', 'club':'<img src=img/small/kosice-small.png> Košice','age': 28,'rating': 363, 
-                                                                        'points':4, 'goals':3, 'asists': 1,  },
+                                                                        'points':6, 'goals':5, 'asists': 1,  },
 
          {'position': 'RW','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'  Erast Bochenek ', 'club':'<img src=img/small/kosice-small.png> Košice','age': 34,'rating': 395, 
                                                                         'points':5, 'goals':2, 'asists': 3,  },
 
         {'position': 'RW','flag':'<img src="img/nat/aus.gif" height="12">', 'name':' Chris Graham ', 'club':'<img src=img/small/kosice-small.png> Košice','age': 31,'rating': 341, 
-                                                                        'points':1, 'goals':1, 'asists': 0,  },
+                                                                        'points':2, 'goals':2, 'asists': 0,  },
 
         {'position': 'C','flag':'<img src="img/nat/aus.gif" height="12">', 'name':' Flynn Isaacs ', 'club':'<img src=img/small/kosice-small.png> Košice','age': 29,'rating': 357, 
-                                                                        'points':3, 'goals':0, 'asists': 3,  },
+                                                                        'points':4, 'goals':0, 'asists': 4,  },
 
         {'position': 'C','flag':'<img src="img/nat/fra.gif" height="12">', 'name':' Boris Durand ', 'club':'<img src=img/small/kosice-small.png> Košice','age': 30,'rating': 364, 
                                                                         'points':4, 'goals':1, 'asists': 3,  },
 
         {'position': 'C','flag':'<img src="img/nat/cz.gif" height="12">', 'name':' Tomáš Kopecký ', 'club':'<img src=img/small/kosice-small.png> Košice','age': 29,'rating': 322, 
-                                                                        'points':3, 'goals':0, 'asists': 3,  },                                                                
+                                                                        'points':5, 'goals':1, 'asists': 4,  },                                                                
 
         {'position': 'LW','flag':'<img src="img/nat/fra.gif" height="12">', 'name':' Michel Rossignol ', 'club':'<img src=img/small/kosice-small.png> Košice','age': 32,'rating': 373, 
-                                                                        'points':6, 'goals':5, 'asists': 1,  },
+                                                                        'points':7, 'goals':6, 'asists': 1,  },
 
         {'position': 'LW','flag':'<img src="img/nat/lot.gif" height="12">', 'name':' Anatolijs Freibergs ', 'club':'<img src=img/small/kosice-small.png> Košice','age': 26,'rating': 326, 
-                                                                        'points':1, 'goals':1, 'asists': 0,  },
+                                                                        'points':2, 'goals':2, 'asists': 0,  },
 
         {'position': 'LW','flag':'<img src="img/nat/svk.gif" height="12">', 'name':' Bernardrín Galis ', 'club':'<img src=img/small/kosice-small.png> Košice','age': 24,'rating': 271, 
                                                                         'points':2, 'goals':1, 'asists': 1,  },                                                                
@@ -184,10 +184,10 @@ let personData = [
                                                                         'points':4, 'goals':1, 'asists': 3,  },
 
          {'position': 'RD','flag':'<img src="img/nat/fin.gif" height="12">', 'name':' Ville Tuusa ', 'club':'<img src=img/small/kosice-small.png> Košice','age': 31,'rating': 407, 
-                                                                        'points':3, 'goals':0, 'asists': 3,  },
+                                                                        'points':6, 'goals':0, 'asists': 6,  },
 
          {'position': 'RD','flag':'<img src="img/nat/aus.gif" height="12">', 'name':'  Lucas Schofield ', 'club':'<img src=img/small/kosice-small.png> Košice','age': 32,'rating': 319, 
-                                                                        'points':1, 'goals':0, 'asists': 1,  },
+                                                                        'points':2, 'goals':0, 'asists': 2,  },
 
         {'position': 'LD','flag':'<img src="img/nat/slo.gif" height="12">', 'name':'Filip Stegne ', 'club':'<img src=img/small/kosice-small.png> Košice','age': 26,'rating': 330, 
                                                                         'points':1, 'goals':0, 'asists': 1,  },
@@ -207,7 +207,7 @@ let personData = [
                                                                          'points':4, 'goals':4, 'asists': 0,  },
 
         {'position': 'RW','flag':'<img src="img/nat/isr.gif" height="12">', 'name':'  Christopher Chapman    ', 'club':'<img src=img/small/michalovce-small.png> Michalovce','age': 28,'rating': 346, 
-                                                                        'points':2, 'goals':1, 'asists': 1,  },
+                                                                        'points':3, 'goals':2, 'asists': 1,  },
 
         {'position': 'RW','flag':'<img src="img/nat/sva.gif" height="12">', 'name':' Erwin Schümperli ', 'club':'<img src=img/small/michalovce-small.png> Michalovce','age': 26,'rating': 320, 
                                                                         'points':1, 'goals':1, 'asists': 0,  },
@@ -216,7 +216,7 @@ let personData = [
                                                                         'points':7, 'goals':6, 'asists': 1,  },
 
         {'position': 'C','flag':'<img src="img/nat/nor.gif" height="12">', 'name':'  Ulrik Bryhn ', 'club':'<img src=img/small/michalovce-small.png> Michalovce','age': 31,'rating': 390, 
-                                                                        'points':6, 'goals':4, 'asists': 2,  },
+                                                                        'points':7, 'goals':4, 'asists': 3,  },
 
         {'position': 'C','flag':'<img src="img/nat/newz.gif" height="12">', 'name':'   Justin Bainbridge ', 'club':'<img src=img/small/michalovce-small.png> Michalovce','age': 29,'rating': 349, 
                                                                         'points':5, 'goals':4, 'asists': 1,  },
@@ -234,7 +234,7 @@ let personData = [
                                                                         'points':5, 'goals':2, 'asists': 3,  },
 
         {'position': 'RD','flag':'<img src="img/nat/dan.gif" height="12">', 'name':'  Magnus Lauridsen ', 'club':'<img src=img/small/michalovce-small.png> Michalovce','age': 27,'rating': 368, 
-                                                                        'points':1, 'goals':0, 'asists': 1,  },
+                                                                        'points':2, 'goals':0, 'asists': 2,  },
 
         {'position': 'RD','flag':'<img src="img/nat/rus.gif" height="12">', 'name':'  Bogdan Mushailov ', 'club':'<img src=img/small/michalovce-small.png> Michalovce','age': 31,'rating': 408, 
                                                                         'points':2, 'goals':0, 'asists': 2,  },
@@ -305,7 +305,7 @@ let personData = [
 
         // NITRA //
         {'position': 'RW', 'flag':'<img src="img/nat/lot.gif" height="12">', 'name':' Leonards Lapsiņš ', 'club':'<img src="img/small/nitra-small.png"> Nitra','age': 31,'rating': 468, 
-                                                                        'points':8, 'goals':7, 'asists': 1, },
+                                                                        'points':9, 'goals':8, 'asists': 1, },
 
          {'position': 'RW', 'flag':'<img src="img/nat/uk.gif" height="12">', 'name':' Oleksiy Bulyga ', 'club':'<img src="img/small/nitra-small.png"> Nitra','age': 31,'rating': 468, 
                                                                         'points':1, 'goals':1, 'asists': 0, },
@@ -317,13 +317,13 @@ let personData = [
                                                                         'points':2, 'goals':0, 'asists': 2, },
 
          {'position': 'C', 'flag':'<img src="img/nat/rus.gif" height="12">', 'name':' Almaz Legasov', 'club':'<img src="img/small/nitra-small.png"> Nitra','age': 30,'rating': 331, 
-                                                                        'points':7, 'goals':0, 'asists': 7, },                                                               
+                                                                        'points':9, 'goals':1, 'asists': 8, },                                                               
 
          {'position': 'C', 'flag':'<img src="img/nat/domr.gif" height="12">', 'name':'  Cándido Barceló ', 'club':'<img src="img/small/nitra-small.png"> Nitra','age': 28,'rating': 354, 
-                                                                        'points':4, 'goals':0, 'asists':4, },
+                                                                        'points':5, 'goals':0, 'asists':5, },
 
          {'position': 'C', 'flag':'<img src="img/nat/cz.gif" height="12">', 'name':' Jindřich Sláma ', 'club':'<img src="img/small/nitra-small.png"> Nitra','age': 30,'rating': 387, 
-                                                                        'points':9, 'goals':1, 'asists': 8, },
+                                                                        'points':10, 'goals':1, 'asists': 9, },
 
          {'position': 'LW', 'flag':'<img src="img/nat/aus.gif" height="12">', 'name':'  Jack Morse ', 'club':'<img src="img/small/nitra-small.png"> Nitra','age': 27,'rating': 344, 
                                                                         'points':3, 'goals':3, 'asists': 0, },
@@ -335,7 +335,7 @@ let personData = [
                                                                         'points':2, 'goals':2, 'asists': 0, },
 
           {'position': 'LW', 'flag':'<img src="img/nat/nem.gif" height="12">', 'name':' Werner Hagenstrom    ', 'club':'<img src="img/small/nitra-small.png"> Nitra','age': 34,'rating': 441, 
-                                                                        'points':5, 'goals':4, 'asists': 1, },
+                                                                        'points':6, 'goals':5, 'asists': 1, },
 
          {'position': 'RD', 'flag':'<img src="img/nat/rus.gif" height="12">', 'name':'  Anatoliy Chalmaev    ', 'club':'<img src="img/small/nitra-small.png"> Nitra','age': 33,'rating': 413, 
                                                                         'points':4, 'goals':1, 'asists': 3, },
@@ -344,13 +344,13 @@ let personData = [
                                                                         'points':2, 'goals':0, 'asists': 2, },  
 
          {'position': 'LD', 'flag':'<img src="img/nat/fra.gif" height="12">', 'name':' Jean Lamy ', 'club':'<img src="img/small/nitra-small.png"> Nitra','age': 26,'rating': 336, 
-                                                                        'points':3, 'goals':0, 'asists': 3, },  
+                                                                        'points':5, 'goals':0, 'asists': 5, },  
 
           {'position': 'LD', 'flag':'<img src="img/nat/arg.gif" height="12">', 'name':' Iván Estrada ', 'club':'<img src="img/small/nitra-small.png"> Nitra','age': 26,'rating': 313, 
                                                                         'points':1, 'goals':0, 'asists': 1, },  
 
           {'position': 'LD', 'flag':'<img src="img/nat/cz.gif" height="12">', 'name':' Václav Strnad ', 'club':'<img src="img/small/nitra-small.png"> Nitra','age': 23,'rating': 209, 
-                                                                        'points':1, 'goals':0, 'asists': 1, },                                                               
+                                                                        'points':2, 'goals':0, 'asists': 2, },                                                               
 
         
 
@@ -359,19 +359,25 @@ let personData = [
 
         // PIEŠŤANY //
         {'position': 'RW','flag':'<img src="img/nat/svk.gif" height="12">', 'name':' Kliment Geffert ', 'club':'<img src=img/small/piestany-small.png> Piešťany','age': 33,'rating': 463, 
-                                                                        'points':3, 'goals':1, 'asists': 2,  },
+                                                                        'points':5, 'goals':3, 'asists': 2,  },
 
         {'position': 'RW','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'  Branislav Kovalský ', 'club':'<img src=img/small/piestany-small.png> Piešťany','age': 27,'rating': 321, 
                                                                         'points':1, 'goals':0, 'asists': 1,  },
 
-        {'position': 'C','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'  Dominik Vajda ', 'club':'<img src=img/small/piestany-small.png> Piešťany','age': 24,'rating': 303, 
+        {'position': 'RW','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'   Fábius Fekete ', 'club':'<img src=img/small/piestany-small.png> Piešťany','age': 24,'rating': 264, 
                                                                         'points':1, 'goals':1, 'asists': 0,  },
+
+        {'position': 'C','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'  Dominik Vajda ', 'club':'<img src=img/small/piestany-small.png> Piešťany','age': 24,'rating': 303, 
+                                                                        'points':2, 'goals':1, 'asists': 1,  },
+
+        {'position': 'C','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'  Klaudius Pelich ', 'club':'<img src=img/small/piestany-small.png> Piešťany','age': 23,'rating': 308, 
+                                                                        'points':1, 'goals':0, 'asists': 1,  },
 
         {'position': 'C','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'  Erik Frankovský ', 'club':'<img src=img/small/piestany-small.png> Piešťany','age': 31,'rating': 380, 
                                                                         'points':2, 'goals':0, 'asists': 2,  },
 
         {'position': 'LW','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'  Štefan Papšo ', 'club':'<img src=img/small/piestany-small.png> Piešťany','age': 29,'rating': 456, 
-                                                                        'points':1, 'goals':1, 'asists': 0,  },
+                                                                        'points':3, 'goals':2, 'asists': 1,  },
 
         {'position': 'LW','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'  Miroslav Bystriansky   ', 'club':'<img src=img/small/piestany-small.png> Piešťany','age': 24,'rating': 310, 
                                                                         'points':2, 'goals':2, 'asists': 0,  },
@@ -380,11 +386,13 @@ let personData = [
                                                                         'points':1, 'goals':1, 'asists': 0,  },
 
         {'position': 'LD','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'  Zdeno Šipko ', 'club':'<img src=img/small/piestany-small.png> Piešťany','age': 27,'rating': 377, 
-                                                                        'points':1, 'goals':1, 'asists': 0,  },
+                                                                        'points':4, 'goals':1, 'asists': 3,  },
+
+        {'position': 'LD','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'  Radim Pavlenka ', 'club':'<img src=img/small/piestany-small.png> Piešťany','age': 26,'rating': 304, 
+                                                                        'points':0, 'goals':0, 'asists': 1,  },
 
 
-        {'position': 'LW','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'  Štefan Papšo ', 'club':'<img src=img/small/piestany-small.png> Piešťany','age': 29,'rating': 456, 
-                                                                        'points':1, 'goals':1, 'asists': 0,  },
+        
 
         
 
@@ -393,52 +401,52 @@ let personData = [
 
         // POPRAD //
         {'position': 'RW','flag':'<img src="img/nat/biel.gif" height="12">', 'name':' Hvedar Olsa ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 28,'rating': 453, 
-                                                                        'points':13, 'goals':9, 'asists': 4,  },
+                                                                        'points':15, 'goals':11, 'asists': 4,  },
 
         {'position': 'RW','flag':'<img src="img/nat/uk.gif" height="12">', 'name':'  Elliot Turnbull ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 31,'rating': 375, 
-                                                                        'points':10, 'goals':9, 'asists': 2,  },
+                                                                        'points':14, 'goals':11, 'asists': 3,  },
 
         {'position': 'RW','flag':'<img src="img/nat/uk.gif" height="12">', 'name':' Martin Jones ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 29,'rating': 433, 
-                                                                        'points':13, 'goals':8, 'asists': 5,  },
+                                                                        'points':16, 'goals':10, 'asists': 6,  },
 
         {'position': 'RW','flag':'<img src="img/nat/uk.gif" height="12">', 'name':' Reggie Glover ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 29,'rating': 400, 
-                                                                        'points':3, 'goals':3, 'asists': 0,  },                                                                                                                                
+                                                                        'points':4, 'goals':3, 'asists': 1,  },                                                                                                                                
 
         {'position': 'C','flag':'<img src="img/nat/uk.gif" height="12">', 'name':'   Leroy Bell ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 33,'rating': 399, 
-                                                                        'points':5, 'goals':1, 'asists': 4,  },
+                                                                        'points':5, 'goals':1, 'asists': 5,  },
 
         {'position': 'C','flag':'<img src="img/nat/uk.gif" height="12">', 'name':'   Guy Knowles ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 32,'rating': 457, 
-                                                                        'points':15, 'goals':3, 'asists': 12,  },  
+                                                                        'points':18, 'goals':3, 'asists': 15,  },  
 
         {'position': 'C','flag':'<img src="img/nat/uk.gif" height="12">', 'name':'    Connor Enock ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 29,'rating': 393, 
-                                                                        'points':1, 'goals':0, 'asists': 1,  },                                                                
+                                                                        'points':5, 'goals':0, 'asists': 5,  },                                                                
 
         {'position': 'LW','flag':'<img src="img/nat/uk.gif" height="12">', 'name':'  Francis Clark ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 32,'rating': 403, 
-                                                                        'points':7, 'goals':5, 'asists': 2,  },
+                                                                        'points':8, 'goals':6, 'asists': 2,  },
 
         {'position': 'LW','flag':'<img src="img/nat/uk.gif" height="12">', 'name':'  Brad Keane ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 28,'rating': 331, 
                                                                         'points':2, 'goals':1, 'asists': 1,  },
 
         {'position': 'LW','flag':'<img src="img/nat/uk.gif" height="12">', 'name':'  Darren Morris ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 30,'rating': 376, 
-                                                                        'points':1, 'goals':1, 'asists': 0,  },                                                                        
+                                                                        'points':4, 'goals':4, 'asists': 0,  },                                                                        
 
         {'position': 'RD','flag':'<img src="img/nat/jap.gif" height="12">', 'name':' Ikku Koyanagi ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 28,'rating': 433, 
-                                                                        'points':6, 'goals':4, 'asists': 2,  },
+                                                                        'points':8, 'goals':6, 'asists': 2,  },
 
         {'position': 'RD','flag':'<img src="img/nat/uk.gif" height="12">', 'name':' Seth Wormull ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 29,'rating': 410, 
-                                                                        'points':3, 'goals':0, 'asists': 3,  },                                                             
+                                                                        'points':4, 'goals':0, 'asists': 4,  },                                                             
 
         {'position': 'RD','flag':'<img src="img/nat/uk.gif" height="12">', 'name':' Mark Harvey ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 29,'rating': 384, 
-                                                                        'points':6, 'goals':0, 'asists': 6,  },
+                                                                        'points':7, 'goals':0, 'asists': 7,  },
 
         {'position': 'RD','flag':'<img src="img/nat/cz.gif" height="12">', 'name':' Antonín Erben ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 29,'rating': 397, 
-                                                                        'points':1, 'goals':0, 'asists': 1,  },
+                                                                        'points':2, 'goals':1, 'asists': 1,  },
 
         {'position': 'LD','flag':'<img src="img/nat/uk.gif" height="12">', 'name':' Peter Gayle ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 31,'rating': 445, 
-                                                                        'points':4, 'goals':1, 'asists': 3,  },   
+                                                                        'points':6, 'goals':1, 'asists': 5,  },   
 
         {'position': 'LD','flag':'<img src="img/nat/svk.gif" height="12">', 'name':' Chotimír Orlovský    ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 28,'rating': 399, 
-                                                                        'points':1, 'goals':0, 'asists': 1,  },   
+                                                                        'points':4, 'goals':0, 'asists': 4,  },   
         
 
 
@@ -458,7 +466,7 @@ let personData = [
                                                                             'points':2, 'goals':0, 'asists': 2,  },
 
         {'position': 'C','flag':'<img src="img/nat/cz.gif" height="12">', 'name':'   Soběslav Severa  ', 'club':'<img src=img/small/skalica-small.png> Skalica','age': 32,'rating': 385, 
-                                                                            'points':4, 'goals':1, 'asists': 3,  },
+                                                                            'points':5, 'goals':2, 'asists': 3,  },
 
         {'position': 'LW','flag':'<img src="img/nat/can.gif" height="12">', 'name':' Charles-David Shugg  ', 'club':'<img src=img/small/skalica-small.png> Skalica','age': 33,'rating': 396, 
                                                                             'points':3, 'goals':2, 'asists': 1,  },
@@ -470,7 +478,7 @@ let personData = [
                                                                             'points':4, 'goals':3, 'asists': 1,  },
  
         {'position': 'LW','flag':'<img src="img/nat/kaz.gif" height="12">', 'name':'   Erbol Abishev  ', 'club':'<img src=img/small/skalica-small.png> Skalica','age': 33,'rating': 422, 
-                                                                            'points':4, 'goals':0, 'asists': 4,  },
+                                                                            'points':5, 'goals':0, 'asists': 5,  },
 
         {'position': 'RD','flag':'<img src="img/nat/fin.gif" height="12">', 'name':'   Nikolai Lampi  ', 'club':'<img src=img/small/skalica-small.png> Skalica','age': 34,'rating': 379, 
                                                                             'points':2, 'goals':0, 'asists': 2,  },
@@ -479,7 +487,7 @@ let personData = [
                                                                             'points':2, 'goals':0, 'asists': 2,  },
 
         {'position': 'LD','flag':'<img src="img/nat/bel.gif" height="12">', 'name':'   Daan Maerschalack      ', 'club':'<img src=img/small/skalica-small.png> Skalica','age': 34,'rating': 372, 
-                                                                            'points':1, 'goals':0, 'asists': 1,  },
+                                                                            'points':2, 'goals':0, 'asists': 2,  },
 
 
 
@@ -530,16 +538,16 @@ let personData = [
                                                                          'points':6, 'goals':6, 'asists': 0,  },
         
         {'position': 'RW','flag':'<img src="img/nat/mex.gif" height="12">', 'name':' Acislo Pulido ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 31,'rating': 432,
-                                                                         'points':4, 'goals':4, 'asists': 0,  }, 
+                                                                         'points':7, 'goals':7, 'asists': 0,  }, 
 
         {'position': 'RW','flag':'<img src="img/nat/svk.gif" height="12">', 'name':' Štefan Genči ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 19,'rating': 147,
                                                                          'points':1, 'goals':1, 'asists': 0,  }, 
 
         {'position': 'RW','flag':'<img src="img/nat/mad.gif" height="12">', 'name':' Fülöp Bernáth ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 30,'rating': 397,
-                                                                         'points':1, 'goals':1, 'asists': 0,  },                                                                                                                               
+                                                                         'points':2, 'goals':2, 'asists': 0,  },                                                                                                                               
 
        {'position': 'C','flag':'<img src="img/nat/biel.gif" height="12">', 'name':' Leanid Fatsejeu ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 33,'rating': 352, 
-                                                                         'points':6, 'goals':0, 'asists': 6,  },
+                                                                         'points':8, 'goals':0, 'asists': 8,  },
 
         {'position': 'C','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'  Fridrich Černošek ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 19,'rating': 149, 
                                                                          'points':1, 'goals':0, 'asists': 1,  },
@@ -548,16 +556,16 @@ let personData = [
                                                                          'points':5, 'goals':0, 'asists': 5,  },
 
         {'position': 'C','flag':'<img src="img/nat/mex.gif" height="12">', 'name':' Tiburcio Zúniga ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 29,'rating': 368, 
-                                                                         'points':7, 'goals':0, 'asists': 7,  },
+                                                                         'points':11, 'goals':0, 'asists': 11,  },
 
        {'position': 'C','flag':'<img src="img/nat/svk.gif" height="12">', 'name':' Gerhard Chovanec  ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 25,'rating': 306, 
                                                                          'points':2, 'goals':0, 'asists': 2,  },
 
        {'position': 'LW','flag':'<img src="img/nat/svk.gif" height="12">', 'name':' Ladislav Žember ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 32,'rating': 391, 
-                                                                         'points':3, 'goals':2, 'asists': 1,  },
+                                                                         'points':4, 'goals':2, 'asists': 2,  },
 
        {'position': 'LW','flag':'<img src="img/nat/svk.gif" height="12">', 'name':' Ján Galis ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 30,'rating': 416, 
-                                                                         'points':6, 'goals':5, 'asists': 1,  },
+                                                                         'points':9, 'goals':8, 'asists': 1,  },
 
         {'position': 'LW','flag':'<img src="img/nat/svk.gif" height="12">', 'name':' Karol Hrnčiarik ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 27,'rating': 358, 
                                                                          'points':4, 'goals':3, 'asists': 1,  },
@@ -566,13 +574,13 @@ let personData = [
                                                                          'points':1, 'goals':1, 'asists': 0,  },
 
         {'position': 'RD','flag':'<img src="img/nat/svk.gif" height="12">', 'name':' Tobiáš Laubert ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 24,'rating': 336, 
-                                                                         'points':2, 'goals':1, 'asists': 1,  },
+                                                                         'points':3, 'goals':1, 'asists': 2,  },
         
         {'position': 'RD','flag':'<img src="img/nat/rak.gif" height="12">', 'name':'  Nils Neumayr ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 30,'rating': 376, 
                                                                          'points':3, 'goals':1, 'asists': 2,  },
 
         {'position': 'RD','flag':'<img src="img/nat/lot.gif" height="12">', 'name':'  Hermanis Juškāns   ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 32,'rating': 419, 
-                                                                         'points':2, 'goals':0, 'asists': 2,  },
+                                                                         'points':3, 'goals':0, 'asists': 3,  },
 
         {'position': 'LD','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'  František Žebrák ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 32,'rating': 374, 
                                                                          'points':1, 'goals':0, 'asists': 1,  },
@@ -615,34 +623,34 @@ let personData = [
        
         // ŽILINA //
         {'position': 'RW','flag':'<img src="img/nat/uk.gif" height="12">', 'name':' Thomas Murray ', 'club':'<img src=img/small/zilina-small.png> Žilina','age': 32,'rating': 404, 
-                                                                        'points':5, 'goals':2, 'asists': 3, },
+                                                                        'points':7, 'goals':2, 'asists': 5, },
 
         {'position': 'RW','flag':'<img src="img/nat/rus.gif" height="12">', 'name':'  Bronislav Drashusov ', 'club':'<img src=img/small/zilina-small.png> Žilina','age': 33,'rating': 385, 
-                                                                        'points':5, 'goals':4, 'asists': 1, },
+                                                                        'points':6, 'goals':5, 'asists': 1, },
 
         {'position': 'RW','flag':'<img src="img/nat/svk.gif" height="12">', 'name':'  Ján Hodál ', 'club':'<img src=img/small/zilina-small.png> Žilina','age': 33,'rating': 329, 
                                                                         'points':2, 'goals':1, 'asists': 1, },
 
         {'position': 'C','flag':'<img src="img/nat/mad.gif" height="12">', 'name':' Tamás Roth ', 'club':'<img src=img/small/zilina-small.png> Žilina','age': 25,'rating': 312, 
-                                                                        'points':5, 'goals':3, 'asists': 2, },
+                                                                        'points':6, 'goals':3, 'asists': 3, },
 
         {'position': 'C','flag':'<img src="img/nat/can.gif" height="12">', 'name':' Austin Carty ', 'club':'<img src=img/small/zilina-small.png> Žilina','age': 34,'rating': 364, 
-                                                                        'points':5, 'goals':0, 'asists': 5, },
-
-        {'position': 'C','flag':'<img src="img/nat/ir.gif" height="12">', 'name':' Sean Whiting', 'club':'<img src=img/small/zilina-small.png> Žilina','age': 33,'rating': 308, 
                                                                         'points':6, 'goals':0, 'asists': 6, },
 
+        {'position': 'C','flag':'<img src="img/nat/ir.gif" height="12">', 'name':' Sean Whiting', 'club':'<img src=img/small/zilina-small.png> Žilina','age': 33,'rating': 308, 
+                                                                        'points':7, 'goals':0, 'asists': 7, },
+
         {'position': 'LW','flag':'<img src="img/nat/cz.gif" height="12">', 'name':' Václav Bečvář ', 'club':'<img src=img/small/zilina-small.png> Žilina','age': 34,'rating': 386, 
-                                                                        'points':3, 'goals':2, 'asists': 1, },
+                                                                        'points':4, 'goals':3, 'asists': 1, },
 
         {'position': 'LW','flag':'<img src="img/nat/biel.gif" height="12">', 'name':'  Siarhey Zgonik ', 'club':'<img src=img/small/zilina-small.png> Žilina','age': 33,'rating': 406, 
-                                                                        'points':5, 'goals':5, 'asists': 0, },
+                                                                        'points':6, 'goals':6, 'asists': 0, },
 
         {'position': 'LW','flag':'<img src="img/nat/nem.gif" height="12">', 'name':'  Gustav Glaser ', 'club':'<img src=img/small/zilina-small.png> Žilina','age': 34,'rating': 305, 
                                                                         'points':5, 'goals':5, 'asists': 0, },
 
         {'position': 'LW','flag':'<img src="img/nat/sve.gif" height="12">', 'name':'  Altin Svärd ', 'club':'<img src=img/small/zilina-small.png> Žilina','age': 32,'rating': 359, 
-                                                                        'points':2, 'goals':1, 'asists': 1, },
+                                                                        'points':3, 'goals':2, 'asists': 1, },
 
         {'position': 'RD','flag':'<img src="img/nat/nem.gif" height="12">', 'name':' H-D. Westerwalbesloh ', 'club':'<img src=img/small/zilina-small.png> Žilina','age': 27,'rating': 320, 
                                                                         'points':5, 'goals':0, 'asists': 5, },
