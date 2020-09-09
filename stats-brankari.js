@@ -13,26 +13,26 @@ let personData = [
                                                            'zapasy':1,'uspesnost':71.4, 'goals':4}, */
 
         {'flag':'<img src="img/nat/nem.gif" height="12">', 'name':'Alex Dopp ', 'club':'<img src=img/small/bb-small.png> Bystrica','age': 34,'rating': 417,
-                                                           'zapasy':6,'uspesnost':90.20, 'goals':18},
+                                                           'zapasy':8,'uspesnost':91.51, 'goals':20},
 
         // DETVA //                                                                                                           
         {'flag':'<img src="img/nat/isr.gif" height="12">', 'name':'Gedi Chernyakhovskiy ', 'club':'<img src=img/small/detva-small.png> Detva','age': 22,'rating': 285,
-                                                         'zapasy':7,'uspesnost':88.44, 'goals':26},
+                                                         'zapasy':9,'uspesnost':89.59, 'goals':31},
 
         // KOSICE //                                                                                                           
         {'flag':'<img src="img/nat/cz.gif" height="12">', 'name':' Jan Cihlář ', 'club':'<img src=img/small/kosice-small.png> Košice','age': 35,'rating': 406,
-                                                        'zapasy':7,'uspesnost':87.93, 'goals':21},
+                                                        'zapasy':9,'uspesnost':87.31, 'goals':30},
 
       /*{'flag':'<img src="img/nat/cz.gif" height="12">', 'name':' Petr Kameník ', 'club':'<img src=img/small/kosice-small.png> Košice','age': 35,'rating': 406,
                                                         'zapasy':1,'uspesnost':87.5, 'goals':3}, */                                                     
         
         // MICHALOVCE //
         {'flag':'<img src="img/nat/ir.gif" height="12">', 'name':' Harry Hurst ', 'club':'<img src=img/small/michalovce-small.png> Michalovce','age': 25,'rating': 325,
-                                                         'zapasy':7,'uspesnost':93.33, 'goals':17},    
+                                                         'zapasy':8,'uspesnost':93.27, 'goals':19},    
 
         // MIKULÁŠ //
         {'flag':'<img src="img/nat/fin.gif" height="12">', 'name':' Pentti Toimela ', 'club':'<img src=img/small/mikulas-small.png> Mikuláš','age': 33,'rating': 398,
-                                                        'zapasy':5,'uspesnost':89.08, 'goals':20},
+                                                        'zapasy':7,'uspesnost':88.20, 'goals':34},
 
 
         // NITRA //
@@ -45,7 +45,7 @@ let personData = [
 
         // POPRAD //
         {'flag':'<img src="img/nat/cz.gif" height="12">', 'name':'  Martin Horák ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 33,'rating': 519,
-                                                        'zapasy':5,'uspesnost':89.68, 'goals':13},
+                                                        'zapasy':7,'uspesnost':91.04, 'goals':15},
 
        /* {'flag':'<img src="img/nat/uk.gif" height="12">', 'name':'  Ashley Owen ', 'club':'<img src=img/small/poprad-small.png> Poprad','age': 33,'rating': 519,
                                                         'zapasy':2,'uspesnost':87.3, 'goals':6}, */
@@ -53,29 +53,29 @@ let personData = [
 
          // SKALICA //
          {'flag':'<img src="img/nat/lot.gif" height="12">', 'name':' Edijs Ēķis  ', 'club':'<img src=img/small/skalica-small.png> Skalica','age': 32,'rating': 403,
-                                                        'zapasy':7,'uspesnost':90.33, 'goals':15},
+                                                        'zapasy':10,'uspesnost':89.13, 'goals':29},
 
 
          // SLOVAN //
          {'flag':'<img src="img/nat/nem.gif" height="12">', 'name':' Mario Mennemeyer  ', 'club':'<img src=img/small/slovan-small.png> Slovan','age': 32,'rating': 370,
-                                                        'zapasy':6,'uspesnost':82.45, 'goals':28},
+                                                        'zapasy':8,'uspesnost':82.91, 'goals':41},
 
          // SPIŠSKÁ //
        /*  {'flag':'<img src="img/nat/est.gif" height="12">', 'name':' Erik Torp ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 30,'rating': 407,
-                                                        'zapasy':2,'uspesnost':82.20, 'goals':2},
+                                                        'zapasy':2,'uspesnost':82.20, 'goals':2}, */
 
          {'flag':'<img src="img/nat/svk.gif" height="12">', 'name':' Elemír Malenec ', 'club':'<img src=img/small/snv-small.png> Spišská','age': 30,'rating': 407,
-                                                        'zapasy':2,'uspesnost':88.90, 'goals':6}, */
+                                                        'zapasy':6,'uspesnost':88.60, 'goals':20}, 
 
 
          // ZVOLEN /
          {'flag':'<img src="img/nat/fin.gif" height="12">', 'name':' Torsti Vilppola ', 'club':'<img src=img/small/zvolen-small.png> Zvolen','age': 31,'rating': 385,
-                                                        'zapasy':6,'uspesnost':89.53, 'goals':24},
+                                                        'zapasy':8,'uspesnost':86.20, 'goals':42},
 
 
          // ŽILINA //                                                                                                        
          {'flag':'<img src="img/nat/hr.gif" height="12">', 'name':' Izidor Piragić  ', 'club':'<img src=img/small/zilina-small.png> Žilina','age': 33,'rating': 396,
-                                                        'zapasy':6,'uspesnost':85.63, 'goals':30},
+                                                        'zapasy':8,'uspesnost':85.71, 'goals':39},
 
     
  
