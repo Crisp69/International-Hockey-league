@@ -926,7 +926,9 @@ img.mobile-responsive-img {
 .hrac-kola-tabulka th{
 	color: black;
 }
-
+	.skryt-pre-mobil{
+	display: none;
+}
 
 }
 
