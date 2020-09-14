@@ -215,13 +215,15 @@ body {
 .score {
     font-weight: bold;
     font-size: 13px;
+    text-align: center;
     text-transform: uppercase;
     float: right;
-    color: #2C7399;
+    color: black;
+    width: 15px;
     font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
     position: absolute;
-    right: 5px;
+    right: 0px;
 }
 .team {
     padding: 0 5px;
@@ -414,7 +416,6 @@ body {
   #hide{
     display: none;
   }
-
   .tabulka-zlatakorcula{
     margin-top: 5px;
   }
