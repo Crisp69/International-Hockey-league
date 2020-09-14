@@ -214,7 +214,7 @@ body {
 }
 .score {
     font-weight: bold;
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
     text-transform: uppercase;
     float: right;
@@ -224,6 +224,9 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     position: absolute;
     right: 0px;
+}
+.stav-serie{
+  color: white;
 }
 .team {
     padding: 0 5px;
