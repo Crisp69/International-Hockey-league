@@ -377,6 +377,9 @@ body {
   .pohar-tp-playoff{
     display: none;
   }
+  .stav-serie{
+  display: none;
+}
 
 }
 
