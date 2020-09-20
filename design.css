@@ -456,31 +456,31 @@ table.manazer-ucast td{
 	padding: 5px;
 	font-size: 25px;
 	text-align: center;
+	
 }
-.hrac-kola-tabulka{
-	margin: 0 auto;
-	color: black;
+.hrac-kola-tabulka {
+	margin-top: 90px;
+	text-align: center;
 }
 
 .hrac-kola-tabulka td{
-	padding: 5px;
+	padding-left: 5px;
 	font-size: 20px;
-	border-bottom: 1px solid grey;
-}
-
-.hrac-kola-tabulka td:nth-child(1){
-	border-right: 1px solid grey;
 }
 .hrac-kola-tabulka th{
+	padding: 6px;
+	font-size: 20px;
 	text-align: center;
-	padding: 5px;
+	background-color: #4285F4;
 }
-.hrac-kola-tabulka td:nth-child(3){
-	text-align: center;	
+.hrac-kola-tabulka th:first-child{
+	width: 260px;
 }
-
-.hrac-kola-tabulka td:nth-child(4){
-	text-align: center;	
+.hrac-kola-tabulka th{
+	padding-left: 5px;
+}
+.hrac-kola-tabulka th:last-child{
+	width: 150px;
 }
 
 .tabulka-hracov-stats{
