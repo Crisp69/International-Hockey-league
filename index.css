@@ -1,0 +1,232 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #f8f9fa;
+}
+
+.sticky-top{
+background-color: #f8f9fa;
+}
+
+.zoom {
+  transition: transform .1s; /* Animation */
+  height: 35px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.league-logo-zoom {
+  transition: transform .1s; /* Animation */
+  height: 60px;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.league-logo-zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.tabulka-poradie{
+	border: 1px solid #efefef;
+}
+.tabulka-poradie th{
+	text-align: center; 
+	padding: 5px;
+	background-color: #efefef;
+}
+
+div.tabulka{
+	margin-top: 100px;
+}
+
+.tabulka-poradie td{
+	border-bottom: 1px solid #efefef;
+	background-color: white;
+}
+
+article{
+	margin: 0 auto;
+}
+
+.rules{
+	width: 500px; 
+	margin: 0 auto; 
+	margin-top: 20px;
+}
+
+table.schedule{
+	display: inline-block;
+	background-color: #dc3545;
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+table.schedule th{
+	padding: 5px;
+	text-align: center;
+}
+table.schedule td{
+	background-color:#6c757d;
+	padding: 3px 3px;
+	border: 1px solid grey; 
+	width: 150px;
+	text-align: center;
+}
+
+.article1{
+	margin-top: 20px;
+	background-image: url("img/wallpaper-logo.jpg");
+	height: 857px;
+}
+
+.article2{
+	margin-top: 20px;
+	background-image: url("img/wallpaper-praha.jpg");
+	height: 550px;
+}
+.skuska{
+	width: 1000px; 
+	margin-left: 600px;
+}
+
+p.news{
+	 color: black;
+	 text-shadow: 2px 2px white;
+	 font-size: 21px;
+	 font-weight: 600;
+	 padding-top: 200px;
+	 position: relative;
+	 width: 100%;
+}
+
+.logo{
+	margin-top: 20px;
+	margin-left: 40px;
+  	float: left;
+  	font-family: Veranda;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1506px){ 
+.mobile-hide{
+ display: none;
+}
+.news{
+	position: absolute;
+	margin: 0 auto;
+	width: 100%;
+
+}
+}
+
+
+
+@media only screen and (max-width: 760px){ 
+.mobile-hide{
+display: none;
+}	
+
+
+
+
+
+@media only screen and (max-width: 500px){ 
+.mobile-hide{
+ display: none;
+}
+
+.tabulka{
+	width: 100%;
+	overflow-x: scroll;
+}
+
+.tabulka-poradie{
+		overflow-x: auto;
+		width: 130%;
+		margin: 0 auto;
+}	
+.rules{
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 5px;
+}
+
+img.mobile-responsive-img { 
+      width: 75%; 
+      height: 75%; 
+      object-fit: contain; 
+}
+
+p.news{
+	 color: black;
+	 text-shadow: 2px 2px white;
+	 font-size: 18px;
+	 font-weight: 640;
+	 width: 100%;
+}
+
+.article1{
+	background-image: none;
+	width: 100%;
+}
+
+.skuska{
+	width: 100%;
+	margin-top: -150px; 
+	margin-left: 0px;
+}
+
+
+table.schedule{
+	display: inline-block;
+	background-color: #dc3545;
+	color: white;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+
+body {
+  /* Location of the image */
+  background-image: url("img/mobile-wallpaper.jpg");
+}
+
+
+}
+

@@ -1,64 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Tipsport liga</title>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Staatliches&family=Suez+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="design.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body style="background-image: url('img/background-image.jpg');">
+<body>
 
-<header>
-    <div id="header-begin"><p>TIPSPORT LIGA</p></div>
-    <div id="main-logo-div"></div>
-	   <nav class="navbar">
-  			<ul>
-    			<li><a href="index.html" style="text-decoration: none; color: white;">News</a></li>
-    			<li><a href="schedule.html" style="text-decoration: none;color: white;">Schedule</a></li>
-    			<li><a href="standings.html" style="text-decoration: none;color: white;">Standings</a></li>
-    			<li><a href="stats.html" style="text-decoration: none;color: white;">Stats</a></li>
-                <li><a href="playoff.html" style="text-decoration: none;color: white;">Play-off</a></li>
-    			<li><a href="team.html" style="text-decoration: none;color: white;">Teams</a></li>
-    			<li><a href="halloffame.html" style="text-decoration: none;color: white;">Hall of Fame</a></li>
-    			<li><a href="managers.html" style="text-decoration: none;color: white;">Managers</a></li>
-    			<li><a href="rules.html" style="text-decoration: none;;color: white;">Rules</a></li>
-    		</ul>
-        </nav>
-   
-</header>   
-    
+  <nav class="navbar sticky-top navbar-light bg-light mobile-hide">
+  <div style="margin: 0 auto;">
+    <a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=37887"><img class="zoom" src="img/logo/slovan.png"></a>
+    <a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=9011"><img class="zoom" src="img/logo/kosice.png"></a>
+    <a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=28026"><img class="zoom" src="img/logo/bystrica.png"></a>
+    <a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58877"><img class="zoom" src="img/logo/nitra.png"></a>
+    <a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=7347"><img class="zoom" src="img/logo/poprad.png"></a>
+    <a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58552"><img class="zoom" src="img/logo/detva.png"></a>
+    <a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=23979"><img class="zoom" src="img/logo/mikulas.png"></a>    
+    <a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=2991"><img class="zoom" src="img/logo/skalica.png"></a>   
+    <a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=47695"><img class="zoom" src="img/logo/zilina.png"></a>
+    <a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=9698"><img class="zoom" src="img/logo/praha.png"></a>
+    <a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=35553"><img class="zoom" src="img/logo/lvi.png"></a>
+  </div>
+</nav>
 
 
-            <div class="rules"style="display: flex;">
 
+<nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #343a40;;">    
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="index.html">
+    <img class="league-logo-zoom" src="img/league_logo.png" alt="">
+  </a>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html" style="color: white;">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="schedule.html" style="color: white;">Schedule</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="standings.html" style="color: white;">Standings</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="playoff.html" style="color: white;">Play-off</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="rules.html" style="color: white;">Rules</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.hockeyarena.net/sk/index.php?p=manager_discussion_posts.php&table_id=503087&last_seen=0" style="color: white;">HA-fórum</a>
+      </li>   
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.hockeyarena.net/sk/index.php?p=manager_manager_info.php&id=722006" style="color: white;">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-                <article class="rules-article">
-                    <p style="font-size: 40px"><b>Pravidlá Turnaja</b>  <img src="img/rozhodca.png" height="35"> </p>
-                    <p>Začiatok turnaja = začiatok novej sezóny na HA </p>
-                    <p><b>Nasledujúce pravidlá sú platné od 2.sezóny turnaja</b> </p>
-                    <p><b>Maximálne 14 účastníkov v jednej sezóne</b> </p>
+             <div class="rules">
+              <article>
+                    <p  align="center" style="font-size: 40px"><b>Pravidlá Turnaja</b></p>
+                    <p  align="center"><img src="img/league_logo.png" height="200"></p>
+
                 
 
-                    <p><b style="color:#BD0000;font-size: 30px; ">Základná časť</b></p>
+                    <p align="center"><b style="color:#BD0000;font-size: 30px; ">Základná časť</b></p>
                     <p><img src="img/hockeystick.png" height="25"> <b>Hracie dni Sobota - Nedeľa</b></p>
                     <p>Plánovanie zápasov - <b>PLAY-OFF</b> </p>
-                    <p> Základná časť sa hraje formátom každy proti každému <b>bez odvetných zápasov</b>. Jedna skupina, v ktorej sa stretnú všetky prihlásené tímy v turnaji.</p>
+                    <p> Základná časť sa hraje formátom každy proti každému <b>bez odvetných zápasov</b>. Jedna skupina, v ktorej sa stretnú všetky prihlásené tímy v turnaji. Domáci zápas nie je podstatný (tzn. doma môže hrať ten čo má lepšie zázemie kvôli financiám, nemusíte sa riadiť rozpisom kto má hrať doma alebo vonku).</p>
                     <p> Rozhoduje - Počet bodov > Vzájomné zápasy  > Skóre > Počet vstrelených gólov  </p>
                     <p> Bodovanie: Výhra +3 / VPP +2 / PPP +1 / P +0</p>
-                    <p> PRAVIDLO PRE BRANKÁROV - každý brankár, ktorí chce byť zapojený o najlepšieho brankára sezóny musí odohrať minimálne 5 zápasov a mať minimálne 30 minút icetime v zápase. Najlepší brankár sa vyhlasuje na konci ZČ.</p>
-                    <p>Víťazovi základnej časti bude odovzdaný  <b style="color: #DAA520; font-family: italic; font-size: 17px;">Pohár Dušana Pašeka</b> <img src="img/pasek_pohar.png" height="50"></p>
+                    <p> PRAVIDLO PRE BRANKÁROV - každý brankár, ktorí chce byť zapojený o najlepšieho brankára sezóny musí odohrať minimálne 3 zápasy a mať minimálne 30 minút icetime v danom zápase. Najlepší brankár sa vyhlasuje na konci ZČ.</p>
+                    <p>Víťazovi základnej časti bude odovzdaný  <b style="color: #DAA520; font-family: italic; font-size: 17px;">Pohár Dušana Pašeka 🏆</b></p>
 
-                    <p><b style="color:#BD0000; font-size: 30px;">Play-off</b></p>
+                    <p align="center"><b style="color:#BD0000; font-size: 30px;">Play-off</b></p>
                     <p><img src="img/hockeystick.png" height="25"> <b>Hracie dni Sobota - Nedeľa - Streda(podľa možností)</b></p>
                     <p>Plánovanie zápasov - <b>PLAY-OFF</b> </p>
                     <p>Tímy na <b>1.</b> až <b>8. mieste</b> postupujú do <b> štvrťfinále Play-off</b>.</p>
                     <p><b>Formát - 1v8...2v7...3v6...4v5</b></p>
-                    <p> Hrá sa na <b>Best of 3</b> (tzn. 2 víťazné zápasy). Prvý zápas doma odohrá lepšie postavený tím v tabuľke. Pri nerozhodnom stave 1:1 sa dohodnú manažéri kto odohrá tretí zápas ako domáci (<b> buď v stredu alebo najbližšiu sobotu </b>) a následne mi to <b>ohlási</b> do PM/na fórum pre kontrolu a zapísanie do rozpisu. </p>
-                    <p>Víťaz Play-off získava  <b style="color: #DAA520; font-family: italic; font-size: 17px;">Pohár Vladimíra Dzurillu</b> <img src="img/pohar_dzurilla.png" height="50"></p>
+                    <p> Hrá sa na <b>Best of 3</b> (tzn. 2 víťazné zápasy)</p>
+                    <p>Víťaz Play-off získava  pohár <b style="color: #DAA520; font-family: italic; font-size: 17px;">Medzinárodného Víťaza 🏆</b></p>
                 
                 
                    <p><b  style="color:#BD0000;font-size: 30px; ">Dôležité pre každého zúčastneného manažéra</b></p>
@@ -66,18 +90,15 @@
                    <p><b style="color: #BD0000">! Neprijatie výzvy bude znamenať kontumáciu v prospech toho manažéra, ktorý výzvu poslal. Výsledok zápasu bude 3:0 !</b> </p>
                    <p><b style="color: #BD0000">! Taktiež neodoslanie výzvy z oboch strán bude znamenať kontumáciu zápasu za stavu 0:0 a zisku 0 bodov pre oba tímy !</b> </p>
                    <p ><b style="color: #BD0000">! Máte šancu dostať len 2 kontumácie. 3 kontumácia (tri neodohrané zápasy) bude znamenať, že letíte z turnaja na čiernu listinu !</b> </p>
-                   <p><b>Každý manažér</b> bude mať možnosť kliknúť na súperov tím v sekcii <b>Schedule</b>/<b>Standings</b>/<b>Managers</b> pre rýchlejšie vyhľadávanie a nasledujúce zorganizovanie zápasu :)</p>
-                  
-                   <p align="center" style="font-size: 12px;">Kontakt<a href="https://www.hockeyarena.net/sk/index.php?p=manager_manager_info.php&id=722006" style="text-decoration: none;color: white;"> DementedMate </a></p>
-                   <p align="center" style="font-size: 12px;"><a href="https://www.hockeyarena.net/sk/" style="text-decoration: none;color: white;"> Hockeyarena.net</a></p>
+                   
                 </article>
-            </div>    
+              </div>   
 
+<script type="text/javascript" src="standings.js"></script>
 
-
-
-
-
-<script type="text/javascript" src="app.js"></script>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>

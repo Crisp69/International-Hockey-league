@@ -1,126 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Tipsport liga</title>
-    <link href="https://fonts.googleapis.com/css2?family=B612:ital@1&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Staatliches&family=Suez+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="design.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+	<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="index.css">
 
 </head>
-<body style="background-color: #e6e7e8">
-
-<header  style="background-image: url('img/background-image.jpg');">
-    <div id="header-begin"><p>TIPSPORT LIGA</p></div>
-    <div id="main-logo-div"></div>
-	   <nav class="navbar">
-  			<ul>
-    			<li><a href="index.html" style="text-decoration: none; color: white;">News</a></li>
-    			<li><a href="schedule.html" style="text-decoration: none;color: white;">Schedule</a></li>
-    			<li><a href="standings.html" style="text-decoration: none;color: white;">Standings</a></li>
-    			<li><a href="stats.html" style="text-decoration: none;color: white;">Stats</a></li>
-                <li><a href="playoff.html" style="text-decoration: none;color: white;">Play-off</a></li>
-    			<li><a href="team.html" style="text-decoration: none;color: white;">Teams</a></li>
-    			<li><a href="halloffame.html" style="text-decoration: none;color: white;">Hall of Fame</a></li>
-    			<li><a href="managers.html" style="text-decoration: none;color: white;">Managers</a></li>
-    			<li><a href="rules.html" style="text-decoration: none;;color: white;">Rules</a></li>
-    		</ul>
-        </nav>
-   
-</header>   
-
-           
+<body>
+<nav class="navbar sticky-top  mobile-hide">
+  <div style="margin: 0 auto;">
+  	<a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=37887"><img class="zoom" src="img/logo/slovan.png"></a>
+  	<a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=9011"><img class="zoom" src="img/logo/kosice.png"></a>
+  	<a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=28026"><img class="zoom" src="img/logo/bystrica.png"></a>
+  	<a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58877"><img class="zoom" src="img/logo/nitra.png"></a>
+  	<a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=7347"><img class="zoom" src="img/logo/poprad.png"></a>
+  	<a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58552"><img class="zoom" src="img/logo/detva.png"></a>
+  	<a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=23979"><img class="zoom" src="img/logo/mikulas.png"></a>  	
+  	<a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=2991"><img class="zoom" src="img/logo/skalica.png"></a>  	
+  	<a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=47695"><img class="zoom" src="img/logo/zilina.png"></a>
+  	<a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=9698"><img class="zoom" src="img/logo/praha.png"></a>
+    <a class="navbar-brand" href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=35553"><img class="zoom" src="img/logo/lvi.png"></a>
+  </div>
+</nav>
 
 
-<div class="uvod">
-    <div style="display: flex;">
-        <img class="mobile-responsive-img" src="img/img_0986-676x451.jpg" width="1200" height="650">
-    </div>    
-    <article class="clanok-uvod">
-        <div style=" display: block; padding-left: 50px;">
-            <h3 style="text-transform: uppercase; color: black; padding-top: 150px"><strong>20.9.2020 sa nám začína play-off Tipsport ligy a my sa už tešíme na prvé duely</strong></h3>
-            <h3 style="padding-top: 130px;"><strong>Prečítaj si poriadne novinky ohľadom play-off a prihlasovačky do ďalšieho ročníka, ktoré sú uvedené nižšie ⬇️</strong></h3>
-            
-        </div>    
-    </article>
+
+<nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #343a40;">    
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="index.html">
+    <img class="league-logo-zoom" src="img/league_logo.png" alt="">
+  </a>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html" style="color: white;">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="schedule.html" style="color: white;">Schedule</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="standings.html" style="color: white;">Standings</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="playoff.html" style="color: white;">Play-off</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="rules.html" style="color: white;">Rules</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.hockeyarena.net/sk/index.php?p=manager_discussion_posts.php&table_id=503087&last_seen=0" style="color: white;">HA-fórum</a>
+      </li>   
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.hockeyarena.net/sk/index.php?p=manager_manager_info.php&id=722006" style="color: white;">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+<div class="article1">
+     
+      <img class="mobile-hide logo mobile-responsive-img" src="img/league_logo.png" height="450">
+
+     	    <p class="news">Tak do 3.sezóny sme spravili viac zmien. Niektoré mužstvá sa nenahlásili a tak sa ich vedenie ligy rozhodlo vynechať. Namiesto toho liga prijala pár zmien. Získala účastníkov z Českej republiky (Sparta Praha a Mostečtí lvi) a premenovala sa na <b>International Hockey league</b> a prichádza s <b>novým logom</b>. Vedenie ligy sa taktiež nebráni v budúcnosti prijať aj iné európske kluby z iných krajín. </p>
+
 </div>
 
 
-<div class="rozdelenie-clankov"> 
-  
-  <div class="clanky-mobil" style="">
-    <div  align="center"><img class="mobile-responsive-img" src="img/tasr-puk-tipsport-liga.jpg" height="300" width="500"></div>
-    <span class="news">News</span>
-       <p class="article-title">Podarí sa Spišskej obhájiť trofej?📢</p>
-       <h4> Play-off dvojice už máme jasné a pozrieť si ich môžete v našom <a href="playoff.html">pavúkovi</a>. Minuloročný majster sa popasuje o semifinále s nováčikom z Nitry. Je to rozhodne najvyrovnanejšia séria, ktorá nás v švrťfinále čaká a stojí za to si ju pozrieť. Fanúšikovia sa už isto nemôžu dočkať. Od Spiškej ako bývalého majstra sa očakáva viac ako od nováčika z Nitry. Uvidíme ako sa s tým tlakom vysporiada majster z prvej sezóny. Prvé štvrťfinálové zápasy nám začínaju dnes v nedeľu (20.9.2020) a budú trvať do nasledujúcej nedele (27.9.2020). Tešíme sa na plné štadióny fanúšikov s poriadnou atmosférou🔥 a na hráčov v plnej forme s chuťou sa pobiť o majstra Slovenskej republiky!! Snáď skončí pohár Vladimíra Dzurillu v tých správnych rukách</h4>
-
-   </div> 
-
-   <div class="clanky-mobil" style="">
-                <table class="hrac-kola-tabulka" align="center">                   
-                    <thead>
-                        
-                        <th>Najproduktívnejší hráč</th>
-                        <th>Klub</th>
-                        <th>Body</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><img src="img/nat/cz.gif" style="padding-bottom: 3px;"> Filip Kaštyl</td>   
-                            <td><img src="img/logo/bardejov.png" height="30"></td> 
-                            <td><strong>27</strong></td>
-                        </tr>
-                    </tbody>
-                </table>  
-                <table class="hrac-kola-tabulka" align="center">                   
-                    <thead>
-                        
-                        <th>Najlepší strelec</th>
-                        <th>Klub</th>
-                        <th>Góly</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><img src="img/nat/fin.gif" style="padding-bottom: 3px;"> Einari Vuollu</td>   
-                            <td><img src="img/logo/bardejov.png" height="30"></td> 
-                            <td><strong>19</strong></td>
-                        </tr>    
-                    </tbody>
-                </table>  
-                <table class="hrac-kola-tabulka" align="center">                   
-                    <thead>
-                        
-                        <th>Najlepší brankár</th>
-                        <th>Klub</th>
-                        <th>Úspešnosť</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><img src="img/nat/ir.gif" style="padding-bottom: 3px;"> Harry Hurst</td>   
-                            <td><img src="img/logo/hk_dukla_michalovce.png" height="30"></td> 
-                            <td><strong>92,70%</strong></td>
-                        </tr>
-                    </tbody>
-                </table>  
-   </div> 
 
 
-
-   <div class="clanky-mobil" style="">
-    <div  align="center"><img class="mobile-responsive-img" src="img/tasr-puk-tipsport-liga.jpg" height="300" width="500"></div>
-    <span class="news">News</span>
-       <p class="article-title">Info o play-off a ďalšej sezóne!📢</p>
-       <h4>Čo sa týka play-off som sa rozhodol byť troška <strong>nekompromisný</strong> aby nevznikali problémy ako prvú sezónu. Čo to znamená pre vás? Ak sa nestihnú odohrať zápasy vo vopred vypísaných hracích dátumoch tak sa to bude ďalej riešiť už len kontumačne a nebude sa jedna séria naťahovať na viac potrebných dní ako bude potreba. Jednoducho treba byť aktívny ak sa chceme stretávať v tomto turnaji spoločne. Ak niekto nie je aktívny ale aspoň dodržuje pravidlá a nerobí problémy tak je to fajn. Ale ak nedodržuje ani jedno z toho jednoducho bude vylúčený. 
-        <br>
-        <br> 
-       Ďalej, v diskusii bude prebiehať prihlasovačka na další ročník, tak kto chce hrať nech sa tam zapíše prosím!!!! <strong style="color: red">PRIHLASOVAČKA BUDE TRVAŤ DO KONCA SEPTEMBRA</strong> ( 30.9.2020 ). Ak sa po uvedenom dátume na prihlasovacej listine nebudú nachádzať terajší manažéri, tak budu vyradený z nasledujúcej sezóny a pripravia sa tak o šancu hrať v turnaji a budú nahradený niekým iným poprípade sa pôjde s menším počtom (niekedy je menej viac).Myslím, že času na to máte dosť a dúfam, že sa tam zapíšete všetci :)</h4>
-   </div> 
-       
- </div> 
-<hr>
+<div>
+   
+</div>
 
 
 
@@ -135,11 +94,10 @@
 
 
 
-
-
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
-
-
-
