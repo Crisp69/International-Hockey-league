@@ -13,6 +13,7 @@ let personData = [
             'lose':0, 
             'score':0, 
             'diffscore': 0,  
+            'points':0, 
          },
 
          // SLOVAN //
@@ -27,6 +28,7 @@ let personData = [
             'lose':0, 
             'score':0, 
             'diffscore': 0,  
+            'points':0, 
          }, 
 
          // BYSTRICA //
@@ -41,6 +43,7 @@ let personData = [
             'lose':0, 
             'score':0, 
             'diffscore': 0,  
+            'points':0, 
          }, 
 
          // NITRA //
@@ -54,7 +57,8 @@ let personData = [
             'losePP': 0, 
             'lose':0, 
             'score':0, 
-            'diffscore': 0,  
+            'diffscore': 0,
+            'points':0,   
          }, 
 
          // POPRAD //
@@ -69,6 +73,7 @@ let personData = [
             'lose':0, 
             'score':0, 
             'diffscore': 0,  
+            'points':0, 
          }, 
 
          // DETVA //
@@ -82,7 +87,8 @@ let personData = [
             'losePP': 0, 
             'lose':0, 
             'score':0, 
-            'diffscore': 0,  
+            'diffscore': 0, 
+            'points':0,  
          }, 
 
          // MIKULAS //
@@ -96,7 +102,8 @@ let personData = [
             'losePP': 0, 
             'lose':0, 
             'score':0, 
-            'diffscore': 0,  
+            'diffscore': 0, 
+            'points':0,  
          }, 
 
           // SKALICA //
@@ -111,6 +118,7 @@ let personData = [
             'lose':0, 
             'score':0, 
             'diffscore': 0,  
+            'points':0, 
          }, 
 
          // ZILINA //
@@ -124,7 +132,8 @@ let personData = [
             'losePP': 0, 
             'lose':0, 
             'score':0, 
-            'diffscore': 0,  
+            'diffscore': 0, 
+            'points':0,  
          }, 
 
          // PRAHA //
@@ -136,9 +145,10 @@ let personData = [
             'win':0,
             'winPP': 0,
             'losePP': 0, 
-            'lose':0, 
+            'lose':0,  
             'score':0, 
-            'diffscore': 0,  
+            'diffscore': 0,
+            'points':0,  
          }, 
 
          // Mostečtí lvi //
@@ -150,9 +160,10 @@ let personData = [
             'win':0,
             'winPP': 0,
             'losePP': 0, 
-            'lose':0, 
+            'lose':0,
             'score':0, 
-            'diffscore': 0,  
+            'diffscore': 0,
+            'points':0,  
          }, 
 
     
@@ -181,7 +192,7 @@ let personData = [
                             <td style="text-align: center;">${person.lose}</td>
                             <td style="text-align: center;">${person.score}</td>
                             <td style="text-align: center;">${person.diffscore}</td>
-                            
+                            <td style="text-align: center;">${person.points}</td>
                       </tr>`
 
         }
