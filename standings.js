@@ -170,7 +170,7 @@ let personData = [
           {
             'position': '12.',
             'logo': '<img src="img/logo/znojmo.png" height="15">',
-            'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=32209" style="color: black;">Orli Znojmo</a>', 
+            'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=32476" style="color: black;">Orli Znojmo</a>', 
             'matches':0, 
             'win':0,
             'winPP': 0,
