@@ -111,24 +111,43 @@ table.schedule td{
 	height: 857px;
 }
 
+
 .article2{
-	margin-top: 20px;
-	background-image: url("img/wallpaper-praha.jpg");
-	height: 550px;
+	height: 730px;
+	background-image: url("img/wallpaper-logo.jpg");
 }
+
 .skuska{
 	width: 1000px; 
 	margin-left: 600px;
 }
 
+.skalica-nitra-seria{
+	margin: 0 auto;
+}
+
+.skalica-nitra-seria td{
+	padding: 5px 5px;
+}
+
+.nitra-majster{
+	background-image: url("img/nitratitul.jpg");
+	height: 659px;
+	width: 1200px;
+}
+.article1 p{
+	padding-top: 200px;
+	font-size: 20px;
+}
+
 p.news{
 	 color: black;
-	 text-shadow: 2px 2px white;
 	 font-size: 21px;
 	 font-weight: 600;
-	 padding-top: 200px;
+	 padding-top: 30px;
 	 position: relative;
-	 width: 100%;
+	 width: 700px;
+	 padding-left: 15px;
 }
 
 .logo{
@@ -139,7 +158,13 @@ p.news{
 }
 
 
-
+@media only screen and (max-width: 1765px){ 
+.nitra-majster{
+	background-image: url("img/nitratitul.jpg");
+	height: 659px;
+	width: 800px;
+}
+}
 
 
 
@@ -151,7 +176,29 @@ p.news{
 	position: absolute;
 	margin: 0 auto;
 	width: 100%;
+	color: white;
+}
+.nitra-majster{
+ display: none;
+}
+.article-foto-nitra-majster{
+	background-image: url("img/nitratitul.jpg");
+	width: 100%;
+	height: 659px;
+}
 
+.article-foto-nitra-majster p{
+ 	padding-bottom: 50px;
+ 	color: white;
+ 	text-shadow: 2px 2px black;
+}
+.article-foto-nitra-majster h3{
+ 	padding-bottom: 50px;
+ 	color: white;
+ 	text-shadow: 2px 2px black;
+}
+.skalica-nitra-seria{
+	display: none;
 }
 }
 
@@ -161,6 +208,16 @@ p.news{
 .mobile-hide{
 display: none;
 }	
+.nitra-majster{
+display: none;	
+}	
+.article-foto-nitra-majster p{
+ 	padding-bottom: 50px;
+ 	color: white;
+ 	text-shadow: 2px 2px black;
+ 	width: 100%;
+}
+}
 
 
 
@@ -169,6 +226,17 @@ display: none;
 @media only screen and (max-width: 500px){ 
 .mobile-hide{
  display: none;
+}
+.nitra-majster{
+display: none;	
+}	
+
+.article-foto-nitra-majster{
+	background-image: url("img/TObiKYhDRVK-z53xhT_Cng_HK-Nitra-oslavy-titulu-3-apr16-TASR.jpg");
+
+}
+.article-foto-nitra-majster p{
+	color: white;
 }
 
 .tabulka{
@@ -193,11 +261,9 @@ img.mobile-responsive-img {
       object-fit: contain; 
 }
 
-p.news{
-	 color: black;
-	 text-shadow: 2px 2px white;
+.article1 p{
 	 font-size: 18px;
-	 font-weight: 640;
+	 font-weight: 500;
 	 width: 100%;
 }
 
