@@ -239,6 +239,11 @@ display: none;
 	color: white;
 }
 
+.article-foto-nitra-majster h3{
+	color: white;
+	padding-left: 15px;
+}
+
 .tabulka{
 	width: 100%;
 	overflow-x: scroll;
