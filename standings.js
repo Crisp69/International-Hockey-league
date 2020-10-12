@@ -226,11 +226,3 @@ personData.sort((a, b) => {
 
 personData;
 
-
-    rank = personData.map(function (rank) {
-        return function (a, i, aa) {
-            return [a, aa[i - 1] === a ? rank : ++rank];
-        };
-    }(0));
-    
-console.log(rank.map(JSON.stringify));
