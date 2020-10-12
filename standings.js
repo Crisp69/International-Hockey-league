@@ -18,7 +18,7 @@ let personData = [
 
          // SLOVAN //
          {
-            'position': '9.',
+            'position': '10.',
             'logo': '<img src="img/logo/slovan.png" height="20">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=37887" style="color: black;">Slovan Bratislava</a>', 
             'matches':1, 
@@ -78,7 +78,7 @@ let personData = [
 
          // DETVA //
          {
-            'position': '8.',
+            'position': '9.',
             'logo': '<img src="img/logo/detva.png" height="20">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58552" style="color: black;">Detva</a>', 
             'matches':1, 
@@ -108,7 +108,7 @@ let personData = [
 
           // SKALICA //
           {
-            'position': '10.',
+            'position': '11.',
             'logo': '<img src="img/logo/skalica.png" height="20">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=2991" style="color: black;">Skalica</a>', 
             'matches':1, 
@@ -168,7 +168,7 @@ let personData = [
 
           // ZNOJMO //
           {
-            'position': '11.',
+            'position': '12.',
             'logo': '<img src="img/logo/znojmo.png" height="15">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=32476" style="color: black;">Orli Znojmo</a>', 
             'matches':1, 
