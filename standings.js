@@ -3,31 +3,31 @@ let personData = [
         
         // KOSICE //
          {
-            'position': '1.',
+            'position': '2.',
             'logo': '<img src="img/logo/kosice.png" height="20">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=9011" style="color: black;">Košice</a>', 
-            'matches':0, 
-            'win':0,
+            'matches':1, 
+            'win':1,
             'winPP': 0,
             'losePP': 0, 
             'lose':0, 
-            'score':0, 
-            'diffscore': 0,  
-            'points':0, 
+            'score':"5 : 1", 
+            'diffscore': 4,  
+            'points':3, 
          },
 
          // SLOVAN //
          {
-            'position': '2.',
+            'position': '9.',
             'logo': '<img src="img/logo/slovan.png" height="20">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=37887" style="color: black;">Slovan Bratislava</a>', 
-            'matches':0, 
+            'matches':1, 
             'win':0,
             'winPP': 0,
             'losePP': 0, 
-            'lose':0, 
-            'score':0, 
-            'diffscore': 0,  
+            'lose':1, 
+            'score':"1 : 3", 
+            'diffscore': -2,  
             'points':0, 
          }, 
 
@@ -36,19 +36,19 @@ let personData = [
             'position': '3.',
             'logo': '<img src="img/logo/bystrica.png" height="24">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=28026" style="color: black;">Banská Bystrica</a>', 
-            'matches':0, 
-            'win':0,
+            'matches':1, 
+            'win':1,
             'winPP': 0,
             'losePP': 0, 
             'lose':0, 
-            'score':0, 
-            'diffscore': 0,  
-            'points':0, 
+            'score':"3 : 1", 
+            'diffscore': 2,  
+            'points':3, 
          }, 
 
          // NITRA //
          {
-            'position': '4.',
+            'position': '5.',
             'logo': '<img src="img/logo/nitra.png" height="20">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58877" style="color: black;">Nitra</a>', 
             'matches':0, 
@@ -63,37 +63,37 @@ let personData = [
 
          // POPRAD //
          {
-            'position': '5.',
+            'position': '1.',
             'logo': '<img src="img/logo/poprad.png" height="23">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=7347" style="color: black;">Poprad</a>', 
-            'matches':0, 
-            'win':0,
+            'matches':1, 
+            'win':1,
             'winPP': 0,
             'losePP': 0, 
             'lose':0, 
-            'score':0, 
-            'diffscore': 0,  
-            'points':0, 
+            'score':"6 : 1", 
+            'diffscore': 5,  
+            'points':3, 
          }, 
 
          // DETVA //
          {
-            'position': '6.',
+            'position': '8.',
             'logo': '<img src="img/logo/detva.png" height="20">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58552" style="color: black;">Detva</a>', 
-            'matches':0, 
+            'matches':1, 
             'win':0,
             'winPP': 0,
             'losePP': 0, 
-            'lose':0, 
-            'score':0, 
-            'diffscore': 0, 
+            'lose':1, 
+            'score':"3 : 4", 
+            'diffscore': -1, 
             'points':0,  
          }, 
 
          // MIKULAS //
          {
-            'position': '7.',
+            'position': '5.',
             'logo': '<img src="img/logo/mikulas.png" height="18">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=23979" style="color: black;">Liptovský Mikuláš</a>', 
             'matches':0, 
@@ -108,22 +108,22 @@ let personData = [
 
           // SKALICA //
           {
-            'position': '8.',
+            'position': '10.',
             'logo': '<img src="img/logo/skalica.png" height="20">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=2991" style="color: black;">Skalica</a>', 
-            'matches':0, 
+            'matches':1, 
             'win':0,
             'winPP': 0,
             'losePP': 0, 
-            'lose':0, 
-            'score':0, 
-            'diffscore': 0,  
+            'lose':1, 
+            'score':"1 : 5", 
+            'diffscore': -4,  
             'points':0, 
          }, 
 
          // ZILINA //
           {
-            'position': '9.',
+            'position': '5.',
             'logo': '<img src="img/logo/zilina.png" height="20">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=47695" style="color: black;">Žilina</a>', 
             'matches':0, 
@@ -138,7 +138,7 @@ let personData = [
 
          // PRAHA //
           {
-            'position': '10.',
+            'position': '5.',
             'logo': '<img src="img/logo/praha.png" height="17">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=9698" style="color: black;">Sparta Praha</a>', 
             'matches':0, 
@@ -153,31 +153,31 @@ let personData = [
 
          // Mostečtí lvi //
           {
-            'position': '11.',
+            'position': '4.',
             'logo': '<img src="img/logo/lvi.png" height="20">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=35553" style="color: black;">Mostečtí lvi</a>', 
-            'matches':0, 
-            'win':0,
+            'matches':1, 
+            'win':1,
             'winPP': 0,
             'losePP': 0, 
             'lose':0,
-            'score':0, 
-            'diffscore': 0,
-            'points':0,  
+            'score':"4 : 3", 
+            'diffscore': 1,
+            'points':3,  
          }, 
 
           // ZNOJMO //
           {
-            'position': '12.',
+            'position': '11.',
             'logo': '<img src="img/logo/znojmo.png" height="15">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=32476" style="color: black;">Orli Znojmo</a>', 
-            'matches':0, 
+            'matches':1, 
             'win':0,
             'winPP': 0,
             'losePP': 0, 
-            'lose':0,
-            'score':0, 
-            'diffscore': 0,
+            'lose':1,
+            'score':"1 : 6", 
+            'diffscore': -5,
             'points':0,  
          }, 
 
@@ -207,7 +207,7 @@ let personData = [
                             <td style="text-align: center;">${person.lose}</td>
                             <td style="text-align: center;">${person.score}</td>
                             <td style="text-align: center;">${person.diffscore}</td>
-                            <td style="text-align: center;">${person.points}</td>
+                            <td style="text-align: center; color: white; background-color: #6c757d;">${person.points}</td>
                       </tr>`
 
         }
@@ -216,25 +216,21 @@ let personData = [
         
     }
 
-
-
-   function sortColumn(columnName){
-        const dataType = typeof personData[0][columnName];
-        sortDirection = !sortDirection;
-
-        switch(dataType) {
-            case 'number':
-            sortNumberColumn(sortDirection, columnName);
-            break;
-        }
-        
-        loadTableData(personData);
+   
+personData.sort((a, b) => {
+    if ( a === b){
+        return 0;
     }
+    return a.points > b.points ? -1 : 1 && a.diffscore > b.diffscore ? -1 : 1;   
+});
 
-    function sortNumberColumn(sort, columnName){
-        personData = personData.sort((p1, p2) => {
-            return sort ? p1[columnName] - p2[columnName] : p2[columnName] - p1[columnName]
-        });
-    }
+personData;
 
 
+    rank = personData.map(function (rank) {
+        return function (a, i, aa) {
+            return [a, aa[i - 1] === a ? rank : ++rank];
+        };
+    }(0));
+    
+console.log(rank.map(JSON.stringify));
