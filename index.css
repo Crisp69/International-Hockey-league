@@ -47,6 +47,16 @@ background-color: #f8f9fa;
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+.zoom-small{
+	transition: transform .1s; /* Animation */
+  	height: 15px;
+  	margin: 0 auto;
+}
+
+.zoom-small:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .league-logo-zoom {
   transition: transform .1s; /* Animation */
   height: 60px;
