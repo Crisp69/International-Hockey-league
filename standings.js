@@ -18,7 +18,7 @@ let teamData = [
 
          // SLOVAN //
          {
-            'position': '12.',
+            'position': '11.',
             'logo': '<img class="zoom-small" src="img/logo/slovan.png">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=37887" style="color: black;">Slovan Bratislava</a>', 
             'matches':3, 
@@ -48,7 +48,7 @@ let teamData = [
 
          // NITRA //
          {
-            'position': '9.',
+            'position': '10.',
             'logo': '<img class="zoom-small" src="img/logo/nitra.png">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58877" style="color: black;">Nitra</a>', 
             'matches':2, 
@@ -123,32 +123,32 @@ let teamData = [
 
          // ZILINA //
           {
-            'position': '11.',
+            'position': '9.',
             'logo': '<img class="zoom-small" src="img/logo/zilina.png">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=47695" style="color: black;">Žilina</a>', 
-            'matches':3, 
-            'win':0,
-            'winPP': 0,
-            'losePP': 0, 
-            'lose':3, 
-            'score':"11 : 14",  
-            'diffscore': -3, 
-            'points':0,  
-         }, 
-
-         // PRAHA //
-          {
-            'position': '10.',
-            'logo': '<img class="zoom-small" src="img/logo/praha.png">',
-            'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=9698" style="color: black;">Sparta Praha</a>', 
             'matches':3, 
             'win':1,
             'winPP': 0,
             'losePP': 0, 
-            'lose':2,  
-            'score':"8 : 14",  
-            'diffscore': -6,
+            'lose':2, 
+            'score':"12 : 13",  
+            'diffscore': -1, 
             'points':3,  
+         }, 
+
+         // PRAHA //
+          {
+            'position': '12.',
+            'logo': '<img class="zoom-small" src="img/logo/praha.png">',
+            'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=9698" style="color: black;">Sparta Praha</a>', 
+            'matches':3, 
+            'win':0,
+            'winPP': 0,
+            'losePP': 0, 
+            'lose':3,  
+            'score':"7 : 15",  
+            'diffscore': -8,
+            'points':0,  
          }, 
 
          // Mostečtí lvi //
