@@ -121,6 +121,21 @@ let teamData = [
             'points':6, 
          }, 
 
+          // ZNOJMO //
+          {
+            'position': '10.',
+            'logo': '<img class="zoom-small" src="img/logo/znojmo.png">',
+            'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=32209" style="color: black;">Orli Znojmo</a>', 
+            'matches':3, 
+            'win':1,
+            'winPP': 0,
+            'losePP': 0, 
+            'lose':2,
+            'score':"12 : 12", 
+            'diffscore': 0,
+            'points':3,  
+         }, 
+
          // ZILINA //
           {
             'position': '9.',
@@ -166,20 +181,7 @@ let teamData = [
             'points':9,  
          }, 
 
-          // ZNOJMO //
-          {
-            'position': '10.',
-            'logo': '<img class="zoom-small" src="img/logo/znojmo.png">',
-            'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=32209" style="color: black;">Orli Znojmo</a>', 
-            'matches':3, 
-            'win':1,
-            'winPP': 0,
-            'losePP': 0, 
-            'lose':2,
-            'score':"12 : 12", 
-            'diffscore': 0,
-            'points':3,  
-         }, 
+         
 
     
  
@@ -218,8 +220,13 @@ let teamData = [
 teamData.sort((a, b) => {
     if ( a === b){
        return 0;
+    }else if(a.points > b.points ? -1 : 1){
+      return  a.points > b.points ? -1 : 1;
+    }else if( a.points == b.points){
+        return a.diffscore > b.diffscore ? 1 : 1;
     }
-      return a.points > b.points ? -1 : 1;
+
+
 });
 teamData;
 
