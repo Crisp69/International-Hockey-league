@@ -123,7 +123,7 @@ let teamData = [
 
           // ZNOJMO //
           {
-            'position': '10.',
+            'position': '9.',
             'logo': '<img class="zoom-small" src="img/logo/znojmo.png">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=32209" style="color: black;">Orli Znojmo</a>', 
             'matches':3, 
@@ -138,7 +138,7 @@ let teamData = [
 
          // ZILINA //
           {
-            'position': '9.',
+            'position': '10.',
             'logo': '<img class="zoom-small" src="img/logo/zilina.png">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=47695" style="color: black;">Žilina</a>', 
             'matches':3, 
