@@ -48,17 +48,17 @@ let teamData = [
 
          // NITRA //
          {
-            'position': '10.',
+            'position': '8.',
             'logo': '<img class="zoom-small" src="img/logo/nitra.png">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58877" style="color: black;">Nitra</a>', 
-            'matches':2, 
+            'matches':3, 
             'win':1,
             'winPP': 0,
-            'losePP': 0, 
+            'losePP': 1, 
             'lose':1, 
-            'score':"6 : 8", 
-            'diffscore': -2,
-            'points':3,   
+            'score':"9 : 12", 
+            'diffscore': -3,
+            'points':4,   
          }, 
 
          // POPRAD //
@@ -96,14 +96,14 @@ let teamData = [
             'position': '2.',
             'logo': '<img class="zoom-small" src="img/logo/mikulas.png">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=32476" style="color: black;">Liptovský Mikuláš</a>', 
-            'matches':2, 
+            'matches':3, 
             'win':2,
-            'winPP': 0,
+            'winPP': 1,
             'losePP': 0, 
             'lose':0, 
-            'score':"8 : 5", 
-            'diffscore': 3,  
-            'points':6,  
+            'score':"12 : 8", 
+            'diffscore': 4,  
+            'points':8,  
          }, 
 
           // SKALICA //
@@ -168,7 +168,7 @@ let teamData = [
 
           // ZNOJMO //
           {
-            'position': '8.',
+            'position': '10.',
             'logo': '<img class="zoom-small" src="img/logo/znojmo.png">',
             'club':'<a href="https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=32209" style="color: black;">Orli Znojmo</a>', 
             'matches':3, 
@@ -219,7 +219,7 @@ teamData.sort((a, b) => {
     if ( a === b){
        return 0;
     }
-      return a.points > b.points ? -1 : 1 && a.diffscore > b.diffscore ? -1 : 1;
+      return a.points > b.points ? -1 : 1;
 });
 teamData;
 
